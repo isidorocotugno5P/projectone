@@ -1,0 +1,10 @@
+/* Link to Google Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Quicksand:wght@300..700&display=swap');
+
+h1 {
+    font-family: "Barriecito", sans-serif;
+}
+
+p {
+    font-family: "Quicksand";
+} 
