@@ -5,34 +5,68 @@
 :root {
     --primary-font: "Barriecito", sans-serif;
     --secondary-font: "Quicksand", sans-serif;
-    --primary-color: #DA3100;
+    --primary-color: #ae0000;
     --secondary-color: #ffce1b;
     --tertiary-color: #FDFBD4;
     --highlight-color: #0a5d00;
-} 
+}
 
 /* Global Styles */
 
 body {
     background-color: var(--highlight-color);
+    background: url("../images/threespoonspices.jpg") no-repeat center center/cover;
     padding: 74px;
 }
 
-header, main {
-    background-color: var(--tertiary-color);
-}
-
-h1 {
+.sub-heading {
     font-family: var(--primary-font);
     color: var(--primary-color);
 }
 
+header,
+main {
+    background-color: var(--tertiary-color);
+    padding: 2rem;
+}
+
+#header {
+    background-image: url("../images/redpepper.png");
+    background-color: var(--secondary-color);
+    background-position: center top;
+  }
+
+h1,
+h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading span {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 4px 10px;
+}
+
+.display-3 span {
+    background-color: var(--secondary-color);
+    padding: 5px 20px;
+}
+
 /* Navbar Styles */
+
 .navbar-brand {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: xx-large;
-} 
+}
 
 .navbar-brand:hover {
     color: var(--secondary-color);
@@ -59,10 +93,40 @@ h1 {
 .navbar-nav .nav-item .active {
     text-decoration: underline;
     color: var(--tertiary-color);
-} 
+}
 
+/* Carousel Home Styles */
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 65%;
+  }
+  
+  .carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .carousel-item img {
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+  .carousel-text {
+    padding-top: 45px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+  }
 /* Footer Styles */
 
 footer {
     background-color: var(--primary-color);
-} 
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
