@@ -24,6 +24,12 @@ body {
     color: var(--primary-color);
 }
 
+.header {
+    display: flex;
+   justify-content: center;
+   border: 5px solid var(--primary-color);
+}
+
 header,
 main {
     background-color: var(--tertiary-color);
@@ -66,12 +72,17 @@ h5 span {
 .display-3 span {
     background-color: var(--secondary-color);
     padding: 5px 20px;
+    border: 5px solid var(--primary-color);
 }
 
 .moletext > p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 } 
+
+.display-6 span {
+    padding: 7px;
+}
 
 /* Navbar Styles */
 
@@ -195,6 +206,11 @@ h5 span {
 }
 
 @media screen and (min-width: 768px) {
+    
+    .sub-heading {
+        padding-top: 7px;
+    } 
+
     #navbar {
         max-width: 100%;
     }
