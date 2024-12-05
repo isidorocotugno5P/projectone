@@ -60,6 +60,7 @@ h5 span {
     color: var(--primary-color);
     font-family: var(--primary-font);
     padding: 0.5rem;
+    border: 3px solid var(--primary-color);
 }
 
 .sub-heading span {
@@ -78,6 +79,7 @@ h5 span {
 .moletext > p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    font-weight: bold;
 } 
 
 .display-6 span {
