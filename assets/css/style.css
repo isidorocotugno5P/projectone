@@ -168,14 +168,22 @@ h5 span {
     justify-content: space-around;
 } 
 
+.card {
+    padding: 20px;
+}
+
 .card, 
 .list-group-item {
     border: none;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-family: var(--secondary-font);
+    text-align: center;
 } 
 
+.card:hover {
+    border: 3px solid var(--primary-color);
+}
 
 /* Footer Styling Section*/
 
