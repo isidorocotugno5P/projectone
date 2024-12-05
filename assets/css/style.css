@@ -168,8 +168,10 @@ h5 span {
     justify-content: space-around;
 } 
 
-.card {
+.card:hover {
     padding: 20px;
+    border: 3px solid var(--primary-color);
+    transition: 0.5s;
 }
 
 .card, 
@@ -180,10 +182,6 @@ h5 span {
     font-family: var(--secondary-font);
     text-align: center;
 } 
-
-.card:hover {
-    border: 3px solid var(--primary-color);
-}
 
 /* Footer Styling Section*/
 
