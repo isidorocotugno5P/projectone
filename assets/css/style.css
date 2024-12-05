@@ -1,10 +1,68 @@
 /* Link to Google Fonts Imports */
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Quicksand:wght@300..700&display=swap');
 
-h1 {
-    font-family: "Barriecito", sans-serif;
+/* Variable Fonts and Colors */
+:root {
+    --primary-font: "Barriecito", sans-serif;
+    --secondary-font: "Quicksand", sans-serif;
+    --primary-color: #DA3100;
+    --secondary-color: #ffce1b;
+    --tertiary-color: #FDFBD4;
+    --highlight-color: #0a5d00;
+} 
+
+/* Global Styles */
+
+body {
+    background-color: var(--highlight-color);
+    padding: 74px;
 }
 
-p {
-    font-family: "Quicksand";
+header, main {
+    background-color: var(--tertiary-color);
+}
+
+h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: xx-large;
+} 
+
+.navbar-brand:hover {
+    color: var(--secondary-color);
+}
+
+.nav-text {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: larger;
+}
+
+.nav-text:hover {
+    color: var(--tertiary-color);
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color);
+}
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-nav .nav-item .active {
+    text-decoration: underline;
+    color: var(--tertiary-color);
+} 
+
+/* Footer Styles */
+
+footer {
+    background-color: var(--primary-color);
 } 
