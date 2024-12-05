@@ -165,22 +165,37 @@ h5 span {
     font-family: var(--secondary-font);
 } 
 
-.btn {
+
+/* Footer Styling Section*/
+
+#contact {
     background-color: var(--primary-color);
+    padding-top: 20px;
+    border: 10px solid var(--secondary-color);
+}
+
+#contact h2 {
     color: var(--secondary-color);
 }
 
-.btn:hover {
-    background-color: var(--highlight-color);
+#contact .social-links i {
     color: var(--secondary-color);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
 }
 
-/* Footer Styles */
+#contact .social-links i:hover {
+    color: var(--tertiary-color);
+}
 
-footer {
-    background-color: var(--primary-color);
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.social-links h3 {
+    color: var(--secondary-color);
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #navbar {
+        max-width: 100%;
+    }
 }
