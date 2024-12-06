@@ -35,6 +35,11 @@ main {
     background-color: var(--tertiary-color);
 }
 
+main {
+    background-color: var(--tertiary-color)!important;
+    background: url("../images/golden-lace.png") center/cover;
+}
+
 #header {
     background-image: url("../images/redpepper.png");
     background-color: var(--secondary-color);
@@ -317,4 +322,11 @@ h5 span {
         margin-left: 60px;
     }
 
+    .moletext {
+        padding-right: 40px;
+    }
+
+    .carousel-text {
+        padding: 0px 60px
+    }
 }
