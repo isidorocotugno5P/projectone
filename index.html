@@ -28,6 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link active nav-text" aria-current="page" href="#">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#locations">Locations</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle nav-text" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -160,7 +163,7 @@
             </div>
         </section>
         <hr>
-        <section class="container section locations">
+        <section id="locations" class="container section locations">
             <div class="row">
                 <h2 class="text-center mb-4">Locations</h2>
                 <div class="location-cards">
@@ -207,13 +210,13 @@
                             <img src="assets/images/curry-house location 3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">CH - Los Angeles</h5>
-                                <p class="card-text">Join us in Los Angeles</p>
+                                <p class="card-text">Join us in LA</p>
 
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><i class="fa-solid fa-house"></i> <a
                                             href="https://www.google.com/maps/place/3506+Madera+Ave,+Los+Angeles,+CA+90039,+USA/@34.1158396,-118.2636257,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2c0da66a50059:0x3fe94cecd0d8d162!8m2!3d34.1158352!4d-118.2610508!16s%2Fg%2F11c4k3lk42?entry=ttu&amp;g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"
                                             target="_blank">3506 Madera Ave <br>
-                                            Los Angeles, CA 90039</a></li>
+                                            LA, CA 90039</a></li>
                                     <li class="list-group-item"><i class="fa-solid fa-phone"></i> <a
                                             href="tel:+1 (323) 661-3913">+1 (323) 661-3913</a></li>
                                 </ul>
@@ -240,13 +243,13 @@
                             aria-hidden="true"></i><label for="insta">
                             <h3>Instagram</h3>
                         </label></a>
-                        <br>
+                    <br>
                     <a href="http://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"
                             aria-label="Visit our Facebook page (opens in new tab)" aria-hidden="true"></i><label
                             for="insta">
                             <h3>Facebook</h3>
                         </label></a>
-                        <br>
+                    <br>
                     <a href="http://www.twitter.com" target="_blank" rel="noopener">
                         <i class="fa-brands fa-x-twitter" aria-label="Visit our Twitter page (opens in new tab)"
                             aria-hidden="true"></i><label for="insta">
@@ -265,6 +268,28 @@
     <!-- Bootstrap JS Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
     </script>
 
 </body>
