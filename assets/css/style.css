@@ -40,6 +40,7 @@ main {
     background-color: var(--secondary-color);
     background-position: center top;
     padding-top: 10px;
+    max-width: none;
 }
 
 h1,
@@ -232,6 +233,14 @@ h5 span {
     .second-paragraph {
         display: none;
     }
+}
+
+@media screen and (max-width: 413px) {
+
+.carousel-caption span {
+    display: none;
+}
+
 }
 
 @media screen and (min-width: 768px) {
