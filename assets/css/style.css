@@ -34,12 +34,14 @@ header,
 main {
     background-color: var(--tertiary-color);
     padding: 2rem;
+    width: 125%;
 }
 
 #header {
     background-image: url("../images/redpepper.png");
     background-color: var(--secondary-color);
     background-position: center top;
+    width: 125%;
   }
 
 h1,
@@ -123,6 +125,14 @@ h5 span {
 
 /* Carousel Home Styles */
 
+.carousel {
+    width: 115%;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .carousel-inner {
     height: 0;
     padding-bottom: 65%;
@@ -142,7 +152,7 @@ h5 span {
   }
 
   .carousel-text {
-    padding-top: 45px;
+    padding-top: 20px;
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: bold;
@@ -191,6 +201,7 @@ h5 span {
     background-color: var(--primary-color);
     padding-top: 20px;
     border: 10px solid var(--secondary-color);
+    width: 125%;
 }
 
 #contact h2 {
@@ -212,6 +223,13 @@ h5 span {
     padding-left: 5px;
     padding-right: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+    .second-paragraph,
+    .carousel-text > p > span {
+      display: none;
+    }
+  }
 
 @media screen and (min-width: 768px) {
     
