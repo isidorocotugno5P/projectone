@@ -14,9 +14,11 @@
 /* Global Styles */
 
 body {
-    background-color: var(--highlight-color);
+    background-color: var(--tertiary-color);
     background: url("../images/mixedspices.jpg") no-repeat center center/cover;
-    padding: 74px;
+    padding-top: 74px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sub-heading {
@@ -25,24 +27,20 @@ body {
 }
 
 .header {
-    display: flex;
-   justify-content: center;
-   border: 5px solid var(--primary-color);
+    border: 5px solid var(--primary-color);
 }
 
 header,
 main {
     background-color: var(--tertiary-color);
-    padding: 2rem;
-    width: 125%;
 }
 
 #header {
     background-image: url("../images/redpepper.png");
     background-color: var(--secondary-color);
     background-position: center top;
-    width: 125%;
-  }
+    padding-top: 10px;
+}
 
 h1,
 h2 {
@@ -74,15 +72,15 @@ h5 span {
 
 .display-3 span {
     background-color: var(--secondary-color);
-    padding: 5px 20px;
+    padding: 0.5px 10px;
     border: 5px solid var(--primary-color);
 }
 
-.moletext > p {
+.moletext>p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: bold;
-} 
+}
 
 .display-6 span {
     padding: 7px;
@@ -125,60 +123,51 @@ h5 span {
 
 /* Carousel Home Styles */
 
-.carousel {
-    width: 115%;
-    display: flex;
-    align-content: flex-end;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+.carousel {}
 
 .carousel-inner {
     height: 0;
     padding-bottom: 65%;
-  }
-  
-  .carousel-item {
+}
+
+.carousel-item {
     position: absolute !important;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-  }
-  
-  .carousel-item img {
-    height: 100%; 
-    object-fit: cover; 
-  }
+}
 
-  .carousel-text {
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-text {
     padding-top: 20px;
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: bold;
-  }
-
-.mole {
-    width: 325px;
-    height: 400px;
-    border: 10px solid var(--primary-color);
-     margin-top: 1em;
 }
 
-.monthlycurry {
-    display: flex;
-    justify-content: center;
+/* Mole Home Styles */
+
+.mole {
+    width: 200px;
+    border: 10px solid var(--primary-color);
+    margin-top: 1em;
 }
 
 .moletext {
-    margin-top: 125px;
-    padding-left: 20px;
+    margin-top: 20px;
 }
 
-.location-cards {
-    display: flex;
-    justify-content: space-around;
-} 
+.moletext h5 span {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+}
+
+/* Location Home Styles */
 
 .card:hover {
     padding: 20px;
@@ -186,14 +175,14 @@ h5 span {
     transition: 0.5s;
 }
 
-.card, 
+.card,
 .list-group-item {
     border: none;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-family: var(--secondary-font);
     text-align: center;
-} 
+}
 
 /* Footer Styling Section*/
 
@@ -201,7 +190,6 @@ h5 span {
     background-color: var(--primary-color);
     padding-top: 20px;
     border: 10px solid var(--secondary-color);
-    width: 125%;
 }
 
 #contact h2 {
@@ -224,18 +212,19 @@ h5 span {
     padding-right: 20px;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 500px) {
-    .second-paragraph,
-    .carousel-text > p > span {
-      display: none;
+    .second-paragraph {
+        display: none;
     }
-  }
+}
 
 @media screen and (min-width: 768px) {
-    
+
     .sub-heading {
         padding-top: 7px;
-    } 
+    }
 
     #navbar {
         max-width: 100%;
