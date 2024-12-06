@@ -169,6 +169,11 @@ h5 span {
 
 /* Location Home Styles */
 
+.location-cards {
+    display: grid;
+    justify-content: center;
+}
+
 .card:hover {
     padding: 20px;
     border: 3px solid var(--primary-color);
@@ -177,11 +182,13 @@ h5 span {
 
 .card,
 .list-group-item {
+    padding: 10px;
     border: none;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-family: var(--secondary-font);
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Footer Styling Section*/
