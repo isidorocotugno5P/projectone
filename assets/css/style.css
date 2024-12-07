@@ -232,6 +232,46 @@ h5 span {
     padding-right: 20px;
 }
 
+.menu-header {
+    text-align: center;
+    color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+}
+
+.menu {
+    background-color: var(--primary-color)!important;
+    background: url("../images/golden-lace.png") center/cover;
+}
+
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.menu-section h5 {
+    color: var(--secondary-color);
+    text-decoration: underline var(--secondary-color);
+}
+
+.menu-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    max-width: 250px;
+} 
+
+.menu-item > p {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
 /* Media Queries */
 
 @media only screen and (max-width: 991px) {
