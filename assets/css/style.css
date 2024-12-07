@@ -235,12 +235,21 @@ h5 span {
 .menu-header {
     text-align: center;
     color: var(--secondary-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-header span {
     border: 3px solid var(--secondary-color);
 }
 
 .menu {
     background-color: var(--primary-color)!important;
     background: url("../images/golden-lace.png") center/cover;
+}
+
+.menu .container {
+    border: 5px solid var(--secondary-color);
 }
 
 .menu-section {
@@ -255,6 +264,11 @@ h5 span {
     text-decoration: underline var(--secondary-color);
 }
 
+.menu-section h6 {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+}
+
 .menu-sub {
     display: flex;
     flex-wrap: wrap;
@@ -262,7 +276,7 @@ h5 span {
 }
 
 .menu-item {
-    max-width: 250px;
+    max-width: 18rem;
 } 
 
 .menu-item > p {
