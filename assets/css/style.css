@@ -209,6 +209,11 @@ h5 span {
     border: 3px solid var(--primary-color);
 }
 
+.merchtext h5 span:hover {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+}
+
 /* Gallery page */
 
 #photos {
@@ -222,6 +227,11 @@ h5 span {
     max-width: 300px;
     max-height: 400px;
 }
+
+#photos > img:hover{
+    padding: 20px;
+    zoom: 110%;
+} 
 
 /* Footer Styling Section*/
 
