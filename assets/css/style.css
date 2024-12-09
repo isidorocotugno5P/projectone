@@ -139,7 +139,7 @@ h5 span {
 }
 
 .menu-item {
-    border: 3px solid var(--secondary-color);
+    border: 5px inset var(--secondary-color);
     margin-bottom: 2em;
 }
 
@@ -228,11 +228,6 @@ h5 span {
     max-height: 400px;
 }
 
-#photos > img:hover{
-    padding: 20px;
-    zoom: 110%;
-} 
-
 /* Footer Styling Section*/
 
 #contact {
@@ -276,11 +271,20 @@ h5 span {
 }
 
 .menu-header span {
-    border: 3px solid var(--secondary-color);
+    border: 10px ridge var(--secondary-color);
+    background-color: var(--highlight-color);
 }
 
 .menu {
     background: url("../images/golden-lace.png") center/cover;
+}
+
+.menulink h5{
+    padding-top: 20px;
+}
+
+.menulink span:hover {
+    color: var(--highlight-color);
 }
 
 .menu .container {
