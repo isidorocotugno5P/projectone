@@ -137,6 +137,15 @@ h5 span {
     color: var(--primary-color);
 }
 
+.menu-item {
+    border: 3px solid var(--secondary-color);
+    margin-bottom: 2em;
+}
+
+.spice {
+    color: var(--highlight-color);
+} 
+
 /* Carousel Home Styles */
 
 .carousel-inner {
@@ -228,6 +237,7 @@ h5 span {
     color: var(--secondary-color);
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .menu-header span {
@@ -235,12 +245,12 @@ h5 span {
 }
 
 .menu {
-    background-color: var(--primary-color)!important;
     background: url("../images/golden-lace.png") center/cover;
 }
 
 .menu .container {
     border: 5px solid var(--secondary-color);
+    background-color: var(--primary-color)!important;
 }
 
 .menu-section {
@@ -276,6 +286,22 @@ h5 span {
     font-weight: bold;
 }
 
+.spicy {
+    color: var(--secondary-color);
+}
+
+.first-section {
+    background-color: var(--primary-color);
+    border: 3px solid var(--secondary-color);
+}
+
+.first-section * {
+    color: var(--secondary-color)!important;
+}
+
+.address * {
+    font: var(--secondary-font);
+}
 
 /* Media Queries */
 
@@ -315,19 +341,19 @@ h5 span {
         margin-top: 25px;
     }
 
-    .location-cards {
-        display: flex;
-        padding-left: 20px;
-    }
-
-    .card {
-        width: 14rem !important;
-        max-height: 500px;
-    }
 
     .social-links {
         display: flex;
         justify-content: space-around;
+    }
+
+    .contact-section {
+        width: 60%;
+        padding: 2em;
+    }
+
+    .item-space {
+        margin-left: 2rem;
     }
 
 }
@@ -335,8 +361,12 @@ h5 span {
 @media screen and (min-width: 992px) {
 
     .moletext {
-        margin-top: 50px;
-        padding-left: 0px;
+        padding-left: 20px;
+        padding-right: 80px;
+    }
+
+    .mole {
+        margin-left: 75px;
     }
 
     .card-column {
@@ -351,12 +381,43 @@ h5 span {
         width: 90%;
         margin-left: 45px;
     }
+
+    .menu > .container {
+        width: 70%;
+    }
+
+    .menu-item {
+        max-width: 14rem;
+    } 
+
+    .carousel-text {
+        padding: 0px 100px
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
 
     .carousel {
-        margin-left: 55px;
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .carousel-text {
+        padding: 0px 200px;
+    }
+    
+    .menu > .container {
+        width: 100%;
+    }
+
+    .moletext {
+        padding-left: 60px;
+        padding-right: 170px;
+    }
+
+    .mole {
+        margin-left: 170px;
     }
 
 }
@@ -371,7 +432,22 @@ h5 span {
         padding-right: 40px;
     }
 
-    .carousel-text {
-        padding: 0px 60px
+    .carousel {
+        width: 75%;
+        margin-left: 140px;
     }
+
+    .carousel-text {
+        padding: 0px 270px;
+    }
+
+    .moletext {
+        padding-left: 90px;
+        padding-right: 200px;
+    }
+
+    .mole {
+        margin-left: 230px;
+    }
+
 }
