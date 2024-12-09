@@ -191,6 +191,24 @@ h5 span {
     border: 3px solid var(--primary-color);
 }
 
+.merch {
+    width: 250px;
+    border: 10px solid var(--primary-color);
+    margin-top: 1em;
+}
+
+.merchtext {
+    margin-top: 20px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.merchtext h5 span {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+}
+
 /* Gallery page */
 
 #photos {
@@ -365,6 +383,19 @@ h5 span {
 
     .item-space {
         margin-left: 2rem;
+    }
+
+    .merch-box {
+        display: flex;
+        padding-left: 60px;
+        padding-right: 140px;
+
+    }
+
+    .merch {
+        width: 250px;
+        border: 10px solid var(--primary-color);
+        margin-top: 80px;
     }
 
 }
