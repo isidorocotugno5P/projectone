@@ -13,6 +13,10 @@
 
 /* Global Styles */
 
+html {
+    scroll-padding-top: 90px;
+}
+
 body {
     background-color: var(--tertiary-color);
     background: url("../images/mixedspices.webp") no-repeat center center/cover;
