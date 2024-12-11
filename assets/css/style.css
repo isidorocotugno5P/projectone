@@ -93,19 +93,15 @@ h5 span {
     padding: 7px;
 }
 
-.merch-section {
-    display: flex;
-    justify-content: center;
-}
-
 .merch-section .card {
-    margin-top: 20px;
     border: none;
     background-color: var(--tertiary-color);
+    border-radius: 0px;
+    margin: 20px auto;
 }
 
-.merch-section .card-space {
-    margin-left: 20px;
+.modal * {
+    border-radius: 0px;
 }
 
 /* Navbar Styles */
@@ -242,6 +238,7 @@ h5 span {
     background-color: var(--secondary-color);
     border: 3px solid var(--primary-color);
     font-family: var(--primary-font);
+    border-radius: 0px;
 }
 
 
@@ -493,6 +490,22 @@ h5 span {
         margin-top: 10px;
     }
 
+    .merch-section {
+        display: flex; 
+        justify-content: space-evenly;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .merch-section .card {
+        width: 14rem!important;
+        margin: 20px 0px;
+    }
+
+    .merch-section .card-space {
+        margin-left: 5px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -510,14 +523,6 @@ h5 span {
         width: 350px;
         margin-left: 130px;
         margin-top: 55px;
-    }
-
-    .card-column {
-        justify-items: center;
-    }
-
-    .card {
-        width: 18rem !important;
     }
 
     .carousel {
@@ -551,6 +556,10 @@ h5 span {
 
     .merchtext {
         padding-right: 10px;
+    }
+
+    .merch-section .card {
+        width: 16rem!important;
     }
 
 }
@@ -592,6 +601,10 @@ h5 span {
         border: 10px solid var(--primary-color);
         margin-top: 35px;
         margin-left: 10px;
+    }
+
+    .merch-section .card {
+        width: 18rem!important;
     }
 
 }
