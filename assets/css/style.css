@@ -95,6 +95,17 @@ h5 span {
 
 .merch-section {
     display: flex;
+    justify-content: center;
+}
+
+.merch-section .card {
+    margin-top: 20px;
+    border: none;
+    background-color: var(--tertiary-color);
+}
+
+.merch-section .card-space {
+    margin-left: 20px;
 }
 
 /* Navbar Styles */

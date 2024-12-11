@@ -65,48 +65,86 @@
     <br>
 
     <main>
+        <div>
+            <h3 class="display-6 text-center mt-4"><span>Our Merch</span></h3>
+        </div>
         <section class="container">
             <div class="row text-center">
                 <div class="merch-section">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/merch/hatmerch.webp" class="card-img-top" alt="a picture of our branded curryhouse caps in red with logo on the front">
+                        <img src="assets/merch/hatmerch.webp" class="card-img-top"
+                            alt="a picture of our branded curryhouse caps in red with logo on the front">
                         <div class="card-body">
                             <h5 class="card-title">Cap</h5>
                             <p class="card-text">Show everyone your dedication to curry and rep our caps!</p>
-                            <a href="#" class="btn btn-primary">Buy!</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Buy!</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/merch/keychainmerch.webp" class="card-img-top" alt="a picture of our branded keychain with logo attached to the keychain itself">
+                    <div class="card card-space" style="width: 18rem;">
+                        <img src="assets/merch/keychainmerch.webp" class="card-img-top"
+                            alt="a picture of our branded keychain with logo attached to the keychain itself">
                         <div class="card-body">
                             <h5 class="card-title">Keychain</h5>
                             <p class="card-text">Think of us everytime you open the door to your home!</p>
-                            <a href="#" class="btn btn-primary">Buy!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="merch-section">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/merch/socksmerch.webp" class="card-img-top" alt="a picture of our curryhouse branded socks with logo">
-                            <div class="card-body">
-                                <h5 class="card-title">Socks</h5>
-                                <p class="card-text">Let us warm your feet and your stomachs!</p>
-                                <a href="#" class="btn btn-primary">Buy!</a>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/merch/boxermerch.webp" class="card-img-top" alt="a picture of our branded boxer briefs with our curryhouse logo in the front">
-                            <div class="card-body">
-                                <h5 class="card-title">Boxer</h5>
-                                <p class="card-text">Keep us closer then you ever have before with our new boxers!
-                                </p>
-                                <a href="#" class="btn btn-primary">Buy!</a>
-                            </div>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Buy!</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row text-center">
+                <div class="merch-section mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/merch/socksmerch.webp" class="card-img-top"
+                            alt="a picture of our curryhouse branded socks with logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Socks</h5>
+                            <p class="card-text">Let us warm your feet and your stomachs!</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Buy!</a>
+                        </div>
+                    </div>
+                    <div class="card card-space" style="width: 18rem;">
+                        <img src="assets/merch/boxermerch.webp" class="card-img-top"
+                            alt="a picture of our branded boxer briefs with our curryhouse logo in the front">
+                        <div class="card-body">
+                            <h5 class="card-title">Boxer</h5>
+                            <p class="card-text">Keep us closer then you ever have before with our new boxers!
+                            </p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Buy!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Sold Out!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <h5>We are so Sorry</h5>
+                            <p> Please subscribe to our newsletter to find out when our merch is back!</p>
+                            <label for="formGroupExampleInput" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="formGroupExampleInput"
+                                placeholder="Add your email" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Subscribe!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
 
