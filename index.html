@@ -184,7 +184,8 @@
                             keychain, we've got something to spice up your wardrobe. And don’t forget our fun bathing
                             shorts—perfect for keeping the curry vibes strong all summer long. It's the best way to show
                             off your CurryHouse obsession wherever you go!</p>
-                        <h5 class="mb-4"><a href="merch.html" style="text-decoration:none"><span>To Our Merch</span></a></h5>
+                        <h5 class="mb-4"><a href="merch.html" style="text-decoration:none"><span>To Our Merch</span></a>
+                        </h5>
                     </div>
                     <div class="text-center">
                         <img class="merch" src="assets/images/merch-bundle.webp"
@@ -200,7 +201,8 @@
 
                 <h5 class="my-4">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
                         Join Us!
                     </button></h5>
 
@@ -209,21 +211,25 @@
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Newsletter</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Add your email" required>
-                                  </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Subscribe!</button>
-                            </div>
+                            <form action="success.html" method="get" onsubmit="return submitFunc()">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Newsletter</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Add your email" required>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <input type="submit" aria-label="Subscribe!" class="btn btn-primary">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -263,8 +269,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/a5604f580d.js" crossorigin="anonymous"></script>
