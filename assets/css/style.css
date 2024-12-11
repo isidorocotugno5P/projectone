@@ -104,6 +104,12 @@ h5 span {
     border-radius: 0px;
 }
 
+.success {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
 /* Navbar Styles */
 
 .navbar-brand {
