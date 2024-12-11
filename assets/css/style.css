@@ -231,6 +231,12 @@ h5 span {
     background-color: var(--tertiary-color);
 }
 
+.card {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 .btn {
     color: var(--primary-color);
     background-color: var(--secondary-color);
