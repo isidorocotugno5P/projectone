@@ -5,7 +5,7 @@
 :root {
     --primary-font: "Barriecito", sans-serif;
     --secondary-font: "Quicksand", sans-serif;
-    --primary-color: #ae0000;
+    --primary-color: #860000;
     --secondary-color: #ffce1b;
     --tertiary-color: #FDFBD4;
     --highlight-color: #0a5d00;
@@ -19,7 +19,7 @@ html {
 
 body {
     background-color: var(--tertiary-color);
-    background: url("../images/mixedspices.webp") no-repeat center center/cover;
+    background: var(--highlight-color) ;
     padding-top: 74px;
     padding-left: 20px;
     padding-right: 20px;
@@ -114,6 +114,19 @@ h5 span {
     font-weight: bold;
 }
 
+.form-text,
+.form-label {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+}
+
+.footer-header span{
+    background-color: var(--secondary-color);
+    padding: 2px 15px;
+    border: 3px solid var(--highlight-color);
+}
+
 /* Navbar Styles */
 
 .navbar-brand {
@@ -124,6 +137,10 @@ h5 span {
 
 .navbar-brand:hover {
     color: var(--secondary-color);
+}
+
+.navbar-toggler {
+    border: 3px solid var(--secondary-color);
 }
 
 .nav-text {
@@ -150,7 +167,7 @@ h5 span {
 }
 
 .dropdown-item:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
 
@@ -288,6 +305,10 @@ h5 span {
     background-color: var(--highlight-color);
 }
 
+.menu-bg {
+    background-color: var(--primary-color);
+}
+
 .menu {
     background: url("../images/golden-lace.png") center/cover;
 }
@@ -302,7 +323,7 @@ h5 span {
 
 .menu .container {
     border: 5px solid var(--secondary-color);
-    background-color: var(--primary-color)!important;
+    background-color: var(--tertiary-color)!important;
 }
 
 .menu-section {
@@ -313,12 +334,12 @@ h5 span {
 }
 
 .menu-section h5 {
-    color: var(--secondary-color);
-    text-decoration: underline var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: underline var(--primary-color);
 }
 
 .menu-section h6 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: var(--secondary-font);
 }
 
@@ -330,16 +351,17 @@ h5 span {
 
 .menu-item {
     max-width: 18rem;
+    background-color: var(--tertiary-color);
 } 
 
 .menu-item > p {
     font-family: var(--secondary-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: bold;
 }
 
 .spicy {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 /* Footer Styling Section*/
@@ -354,7 +376,6 @@ h5 span {
 
 #contact h2 {
     color: var(--highlight-color);
-    text-shadow: -2px -2px 0 rgba(255, 255, 255, 0.5), 2px -2px 0 rgba(255, 255, 255, 0.5), -2px 2px 0 rgba(255, 255, 255, 0.5), 2px 2px 0 rgba(255, 255, 255, 0.5);
 }
 
 #contact .social-links i {
@@ -378,6 +399,7 @@ h5 span {
     color: var(--highlight-color);
     padding-left: 5px;
     padding-right: 20px;
+    margin: 15px 0px;
 }
 
 .first-section {
@@ -393,14 +415,24 @@ h5 span {
     font: var(--secondary-font);
 }
 
+/* Error Page */
+
+.error-text {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
 /* Media Queries */
+
+@media only screen and (max-width: 1199px) {
+    .follow {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 991px) {
     .second-paragraph {
-        display: none;
-    }
-
-    .follow {
         display: none;
     }
 }
@@ -411,6 +443,10 @@ h5 span {
         visibility: hidden;
     }
 
+    .social-links h3 {
+        margin: 15px 0px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -418,6 +454,14 @@ h5 span {
     main {
         background: none;
     }
+
+}
+
+@media screen and (max-width: 355px) {
+
+    .merch-section .card {
+        max-width: 14rem!important;
+    } 
 
 }
 
@@ -480,7 +524,7 @@ h5 span {
 
     .social-links {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .contact-section {
