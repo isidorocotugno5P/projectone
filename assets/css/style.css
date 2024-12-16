@@ -268,7 +268,6 @@ h5 span {
     border-radius: 0px;
 }
 
-
 .merchtext h5 span:hover,
 .btn:hover {
     background-color: var(--highlight-color);
