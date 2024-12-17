@@ -12,6 +12,28 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- CSS Link -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Critical CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Quicksand:wght@300..700&display=swap');
+
+        :root {
+            --primary-font: "Barriecito", sans-serif;
+            --secondary-font: "Quicksand", sans-serif;
+            --primary-color: #860000;
+            --secondary-color: #ffce1b;
+            --tertiary-color: #FDFBD4;
+            --highlight-color: #0a5d00
+        }
+
+        html {
+            scroll-padding-top: 90px
+        }
+
+        body {
+            background-color: var(--tertiary-color);
+            background: var(--highlight-color)
+        }
+    </style>
 </head>
 
 <body class="d-flex flex-column">
@@ -29,8 +51,8 @@
                         <a class="nav-link nav-text" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-text" href="menu.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle nav-text" href="menu.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Menu
                         </a>
                         <ul class="dropdown-menu border-dropdown">
@@ -138,7 +160,7 @@
     <!-- Bootstrap JS Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+        </script>
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
