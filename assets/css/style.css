@@ -20,9 +20,6 @@ html {
 body {
     background-color: var(--tertiary-color);
     background: var(--highlight-color) ;
-    padding-top: 74px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .sub-heading {
