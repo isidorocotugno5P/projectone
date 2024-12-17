@@ -118,8 +118,7 @@ h5 span {
     font-weight: bold;
 }
 
-.footer-header,
-.footerspan{
+.footer-header {
     background-color: var(--secondary-color);
     padding: 2px 15px;
     border: 3px solid var(--highlight-color);
@@ -400,7 +399,7 @@ h5 span {
 
 .footerspan {
     background-color: var(--secondary-color);
-    padding: 20px 0px 10px 10px;
+    padding-left: 10px;
     border: 3px solid var(--highlight-color);
 }
 
@@ -454,6 +453,11 @@ h5 span {
 
     .social-links h3 {
         margin: 15px 0px;
+    }
+
+    .social-links {
+        width: 14rem;
+        margin: auto;
     }
 
 }
