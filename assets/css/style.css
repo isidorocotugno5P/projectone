@@ -95,22 +95,106 @@ h5 span {
     padding: 7px;
 }
 
-.merch-section .card {
-    border: none;
-    background-color: var(--tertiary-color);
+/* Global Button Styling */
+
+.btn {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    font-family: var(--primary-font);
     border-radius: 0px;
-    margin: 20px auto;
 }
+
+/* Modal */
 
 .modal * {
     border-radius: 0px;
 }
+
+.modal-content {
+    background-color: var(--tertiary-color);
+}
+
+/* Home Page */
+
+/* Carousel Section - Home Page */
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 65%;
+}
+
+.carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-text {
+    padding-top: 20px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+/* Mole Section - Home Page */
+
+.mole {
+    width: 250px;
+    border: 10px solid var(--primary-color);
+    margin-top: 1em;
+}
+
+.moletext > p {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.moletext {
+    margin-top: 20px;
+}
+
+.moletext h5 span {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+}
+
+/* Merch Section - Home Page */
+
+.merch {
+    width: 250px;
+    border: 10px solid var(--primary-color);
+    margin-top: 1em;
+}
+
+.merchtext {
+    margin-top: 20px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.merchtext h5 span {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+}
+
+/* Success Page */
 
 .success {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: bold;
 }
+
+/* Form Styling */
 
 .form-text,
 .form-label {
@@ -119,17 +203,7 @@ h5 span {
     font-weight: bold;
 }
 
-.footer-header {
-    background-color: var(--secondary-color);
-    padding: 2px 15px;
-    border: 3px solid var(--highlight-color);
-}
-
-.social-links * {
-    text-decoration: none;
-}
-
-/* Navbar Styles */
+/* Navbar Styling */
 
 .navbar-nav * {
     text-align: right;
@@ -181,88 +255,7 @@ h5 span {
     color: var(--primary-color);
 }
 
-.menu-item {
-    border: 5px inset var(--secondary-color);
-    margin-bottom: 2em;
-}
-
-.spice {
-    color: var(--highlight-color);
-} 
-
-/* Carousel Home Styles */
-
-.carousel-inner {
-    height: 0;
-    padding-bottom: 65%;
-}
-
-.carousel-item {
-    position: absolute !important;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.carousel-item img {
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel-text {
-    padding-top: 20px;
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-/* Mole Home Styles */
-
-.mole {
-    width: 250px;
-    border: 10px solid var(--primary-color);
-    margin-top: 1em;
-}
-
-.moletext > p {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-.moletext {
-    margin-top: 20px;
-}
-
-.moletext h5 span {
-    background-color: var(--secondary-color);
-    border: 3px solid var(--primary-color);
-}
-
-/* Merch Styling Section */
-
-.merch {
-    width: 250px;
-    border: 10px solid var(--primary-color);
-    margin-top: 1em;
-}
-
-.merchtext {
-    margin-top: 20px;
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-.merchtext h5 span {
-    background-color: var(--secondary-color);
-    border: 3px solid var(--primary-color);
-}
-
-.modal-content {
-    background-color: var(--tertiary-color);
-}
+/* Merch Page Styling Section */
 
 .card {
     font-family: var(--secondary-font);
@@ -270,12 +263,11 @@ h5 span {
     color: var(--primary-color);
 }
 
-.btn {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    border: 3px solid var(--primary-color);
-    font-family: var(--primary-font);
+.merch-section .card {
+    border: none;
+    background-color: var(--tertiary-color);
     border-radius: 0px;
+    margin: 20px auto;
 }
 
 .merchtext h5 span:hover,
@@ -285,7 +277,7 @@ h5 span {
     border: 3px solid var(--primary-color);
 }
 
-/* Gallery page */
+/* Gallery Page Styling Section */
 
 #photos {
     display: table-row;
@@ -299,7 +291,7 @@ h5 span {
     max-height: 400px;
 }
 
-/* Menu Styling Section */
+/* Menu Page Styling Section */
 
 .menu-header {
     text-align: center;
@@ -361,6 +353,8 @@ h5 span {
 .menu-item {
     max-width: 18rem;
     background-color: var(--tertiary-color);
+    border: 5px inset var(--secondary-color);
+    margin-bottom: 2em;
 } 
 
 .menu-item > p {
@@ -424,6 +418,16 @@ h5 span {
     font: var(--secondary-font);
 }
 
+.footer-header {
+    background-color: var(--secondary-color);
+    padding: 2px 15px;
+    border: 3px solid var(--highlight-color);
+}
+
+.social-links * {
+    text-decoration: none;
+}
+
 /* Error Page */
 
 .error-text {
@@ -434,17 +438,23 @@ h5 span {
 
 /* Media Queries */
 
+/* Media Queries for up to 1199px */
+
 @media only screen and (max-width: 1199px) {
     .follow {
         display: none;
     }
 }
 
+/* Media Queries for up to 991px */
+
 @media only screen and (max-width: 991px) {
     .second-paragraph {
         display: none;
     }
 }
+
+/* Media Queries for up to 767px */
 
 @media screen and (max-width: 767px) {
 
@@ -463,6 +473,8 @@ h5 span {
 
 }
 
+/* Media Queries for up to 575 */
+
 @media screen and (max-width: 575px) {
 
     main {
@@ -471,6 +483,8 @@ h5 span {
 
 }
 
+/* Media Queries for up to 355px */
+
 @media screen and (max-width: 355px) {
 
     .merch-section .card {
@@ -478,6 +492,8 @@ h5 span {
     } 
 
 }
+
+/* Media Queries from 576px */
 
 @media screen and (min-width: 576px) {
     .carousel {
@@ -497,6 +513,8 @@ h5 span {
         padding: 0px 100px;
     }
 }
+
+/* Media Queries from 768px */
 
 @media screen and (min-width: 768px) {
 
@@ -584,6 +602,8 @@ h5 span {
 
 }
 
+/* Media Queries from 992px */
+
 @media screen and (min-width: 992px) {
 
     .monthlycurry {
@@ -640,6 +660,8 @@ h5 span {
 
 }
 
+/* Media Queries from 1200px */
+
 @media screen and (min-width: 1200px) {
 
     .carousel {
@@ -684,6 +706,8 @@ h5 span {
     }
 
 }
+
+/* Media Queries from 1400px */
 
 @media screen and (min-width: 1400px) {
 
