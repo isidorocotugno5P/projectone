@@ -707,15 +707,14 @@ h5 span {
     }
 
     .merch-box {
-        padding-left: 250px;
-        padding-right: 280px;
-
+        padding-left: 150px;
+        padding-right: 240px;
     }
 
     .merch {
         width: 300px;
         border: 10px solid var(--primary-color);
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .merchtext {
