@@ -126,6 +126,14 @@ h5 span {
 
 /* Navbar Styles */
 
+.navbar-nav * {
+    text-align: right;
+}
+
+.border-dropdown {
+    border: 3px solid var(--secondary-color);
+}
+
 .navbar-brand {
     font-family: var(--primary-font);
     color: var(--secondary-color);
