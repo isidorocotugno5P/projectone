@@ -118,10 +118,15 @@ h5 span {
     font-weight: bold;
 }
 
-.footer-header span{
+.footer-header,
+.footerspan{
     background-color: var(--secondary-color);
     padding: 2px 15px;
     border: 3px solid var(--highlight-color);
+}
+
+.social-links * {
+    text-decoration: none;
 }
 
 /* Navbar Styles */
@@ -566,6 +571,10 @@ h5 span {
 
     .merch-section .card-space {
         margin-left: 5px;
+    }
+
+    .footer-header {
+        margin-left: 30px;
     }
 
 }
