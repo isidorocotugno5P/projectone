@@ -431,6 +431,10 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
     * For testing
 
+10. W3C Validation Service
+
+    * For both HTML and CSS validation 
+
 ## Credits 
 
 1. Code Insitute - Boardwalk Games Project
@@ -479,15 +483,25 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 #### Home
 
+![Homepage HTML Validation](assets/images/readme-media/index-html-validation.png)
+
 #### Menu 
+
+![Menu HTML Validation](assets/images/readme-media/menu-html-validation.png)
 
 #### Gallery 
 
+![Gallery HTML Validation](assets/images/readme-media/gallery-html-validation.png)
+
 #### Contact 
+
+![Contact HTML Validation](assets/images/readme-media/contact-html-validation.png)
 
 #### Merch
 
+![Merch HTML Validation](assets/images/readme-media/merch-html-validation.png)
+
 ### CSS Validation 
 
-#### CSS Styles
+![CSS Validation](assets/images/readme-media/css-validation.png)
 
