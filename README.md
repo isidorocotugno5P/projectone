@@ -148,3 +148,25 @@ This basic modal is supposed to make it very easy for the customer to sign up to
 In comparison to the modal above a small text was added indicating to the customer that this item has been sold out and giving them the possibility to subscribe to the newsletter in order to find out when the next shipment of merchandise has come in. 
 
 ### Success Page
+
+![Success Page Mobile](assets/images/readme-media/success-mobile.png)
+![Success Page Tablet](assets/images/readme-media/success-tablet.png)
+![Success Page Desktop](assets/images/readme-media/success-desktop.png)
+
+The success page helps to let the customer know that they have successfully filled out and subscribed to our newsletter. The modal on the homepage or the one of the merchandise page leads to the same success message. Included is a button to lead you back to the homepage to continue browsing and interacting with the website. 
+
+### 404 Page
+
+![404 Page](assets/images/readme-media/404.png)
+
+Similar to the success page the 404 error page indicates to the user that something went wrong, but gives them the option of clicking on the button which easily brings them back to the homepage without having to give it much thought. 
+
+### Footer
+
+![Footer Mobile](assets/images/readme-media/footer-mobile.png)
+![Footer Tablet](assets/images/readme-media/footer-tablet.png)
+![Footer Desktop](assets/images/readme-media/footer-desktop.png)
+
+Found on each and every single page of the website is the footer which leads them to the social media apps that CurryHouse can be found on, which is one of the biggest goals. Which is why the footer only includes social media links, without address or phone number to focus the customer and lead them towards their social media profiles. In order to aid that goal, the style compliments the header in a contrasting manner by using the same stylistic theme and outline, but switching up the color scheme and using the other available colors that are still in line with the representation of the CurryHouse brand. 
+
+The social media links open in a new tab in order to keep the CurryHouse website open and make it easier for the user to get back to the website if necessary. 
