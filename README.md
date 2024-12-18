@@ -4,6 +4,88 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ![Responsive Mockup](assets/images/readme-media/responsive-design.png)
 
+## User Stories 
+
+1. Responsive Website & Easy Access to Key Pages
+
+    - User Story: As a first-time visitor to the website I need a simple layout allowing me to access all key pages, making sure all relevant information is readily available without much effort. 
+
+    - Acceptance Critera
+
+        * Site layout and navigation is intuitive, allowing easy access to key pages and sections.
+        * The website adapts for mobile, tablet, and desktop and is fully reponsive for all screen sizes.
+        * Adapting features for the majority of the population 
+
+    - Key Tasks
+
+        * Implement responsive design for all screen sizes for accessibility on multiple screen sizes.
+        * Ensure key pages are easily accessible on navigation bar or homepage site.
+        * Use clean practices to ensure professional and seemless website layout. 
+
+2. Interactive Menu with Limited-Time Specials
+
+    - User Story: As an interested customer I want to know current offers, specials, pricing, and any information relevant to the food available depicted in an appetizing and intriguing manner. 
+
+    - Acceptance Criteria
+
+        * A carousel on the homepage showcasing the current curries available.
+        * The "Menu" page is organized into categories (Curries, Shareables, Sides) with pricing and spice level indicators.
+        * Monthly or limited-time specials are highlighted on the homepage and menu page.
+
+    - Key Tasks 
+
+        * Design and implement a homepage carousel displaying current menu items.
+        * Create a well-structured menu page with clear categories and colorful item details.
+        * Highlight special offers and integrate them into the homepage.
+
+3. Merchandise Display for CurryHouse Fans
+
+    - User Story: As a loyal and returning customer I want to be able to support my local CurryHouse by purchasing branded merchandise that aids the restaurant in marketing through exxlusive promo products. 
+
+    - Acceptance Criteria 
+
+        * A "Merch" section that is featured on the homepage with a sample image of the merch as a bundle.
+        * Easy access to the merch page from the homepage.
+        * A simple layout of the merch for effective overview with the possibility to check availability on individual items.
+        * The option of signing onto the newsletter for notification upon receiving new merchandise. 
+
+    - Key Tasks 
+
+        * Create a merch section on the homepage to attract loyal customers and interested parties, include a button that leads right to the merch page.
+        * Implement a dedicated merch page with clear product images and descriptions, as well as stock availability.
+        * Adding a subscription form to the newsletter, if items have been sold out. 
+
+4. Newsletter Signup for Restaurant Updates
+
+    - User Story: As an interested returning customer, I want to easily subscribe to the CurryHouse newsletter, so I can receive updates about new menu items, promotions, and events.
+
+    - Acceptance Criteria 
+
+        * A simple email subscription form is available on the homepage and merch page. 
+        * Upon sign-up, users receive a confirmation that they are added to the mailing list.
+
+    - Key Tasks 
+
+        * Design a newsletter signup form that pops up as a modal on screen.
+        * Integrate the form with an email marketing service (e.g., Mailchimp). - yet to learn
+        * Display a success message after subscription.
+
+5. Social Media Links & Contact Information
+
+    - User Story: As a customer, I want easy access to CurryHouse’s social media and contact details, so I can contact the restaurant for reservations, requests, etc.
+
+    - Acceptance Critera 
+
+        * The large and visible footer contains links to CurryHouse’s social media profiles, attracting most customers to these links rather than the contact page.
+        * The Contact page includes a Google Maps embed, address, and phone number.
+
+    - Key Tasks 
+
+        * Ensure the Contact page includes a map, clickable phone number, and address.
+        * Make footer large and visually attention grabbing at the bottom of every page, possibly with a call-to-action. 
+        * Ensure footer has opposing color scheme to stand out from the rest of website. 
+
+
 ## Features 
 
 This section will include the features of this CurryHouse project and how they effectively aided in achieving all goals. 
@@ -202,7 +284,7 @@ Below you will find a breakdown of each color and its purpose, as well as their 
 
 
 
-Quote from Blog: [Link Text](https://www.stellendesign.com/hungry-colors-red-and-yellow/#:~:text=Using%20various%20shades%20of%20yellow,particularly%20when%20we're%20eating.)
+[Quote from Blog:](https://www.stellendesign.com/hungry-colors-red-and-yellow/#:~:text=Using%20various%20shades%20of%20yellow,particularly%20when%20we're%20eating.)
 
  > And it’s not just used in branding. Using various shades of yellow and red in the environment have also been shown to increase energy and stimulate appetite. Both colors are known for creating strong associations, both mentally and emotionally. 
  
@@ -227,7 +309,7 @@ This picture is evident of a satisfactory contrast score, ensuring readability o
 
 ### Wireframes Layout 
 
-These sub-section depicts the basic layout used for the website (not all pages were designed using wireframe - some details may have been altered).
+This sub-section depicts the basic layout used for the website (not all pages were designed using wireframe - some details may have been altered).
 
 #### Homepage 
 
@@ -243,17 +325,18 @@ These sub-section depicts the basic layout used for the website (not all pages w
 
 ##### Mobile
 
-
+![Menu Wireframes Layout Mobile](assets/images/readme-media/basic-menu-layout-mobile.png)
 
 ##### Desktop
 
-
+![Menu Wireframes Layout Desktop](assets/images/readme-media/basic-menu-layout-desktop.png)
 
 #### Gallery
 
 ##### Mobile
 
-
+![Gallery Wireframes Layout Mobile](assets/images/readme-media/basic-gallery-layout-mobile.png)
 
 ##### Desktop
 
+![Gallery Wireframes Layout Desktop](assets/images/readme-media/basic-gallery-layout-desktop.png)
