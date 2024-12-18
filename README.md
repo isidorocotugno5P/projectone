@@ -6,11 +6,9 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ## Features 
 
-This section will include all features of the CurryHouse project and how they effectively aided in achieving our goals. 
+This section will include the features of this CurryHouse project and how they effectively aided in achieving all goals. 
 
 ### Navigation Bar
-
-ADD NAVBAR DROWPDOWN AND DESCRIPTION
 
 ![Navigation Bar Mobile](assets/images/readme-media/navbar-mobile.png)
 ![Navigation Bar Tablet](assets/images/readme-media/navbar-tablet.png)
@@ -27,15 +25,15 @@ We have also added a visible "Merch" page to our navigation bar for easy access 
 #### Dropdown Menu
 
 ![Dropdown Navigation Bar Menu Mobile](assets/images/readme-media/dropdown-mobile.png)
-![Dropdown Navigation Bar Menu Tablet](assets/images/readme-media/dropdown-mobile.png)
+![Dropdown Navigation Bar Menu Tablet](assets/images/readme-media/dropdown-tablet.png)
 
 The navigation bar dropdown menu, and sub-dropdown menu of the "Menu" page has its text fall on the right side of the page enabling easy interaction on tablet and mobile devices. This is because most individuals are right-handed this was a conscious choice in the website design, ensuring customer satisfaction. 
 
 ### Landing Page 
 
 ![Landing Page Mobile](assets/images/readme-media/homepage-mobile.png)
-![Landing Page Tablet](assets/images/readme-media/homepage-mobile.png)
-![Landing Page Desktop](assets/images/readme-media/homepage-mobile.png)
+![Landing Page Tablet](assets/images/readme-media/homepage-tablet.png)
+![Landing Page Desktop](assets/images/readme-media/homepage-desktop.png)
 
 As you can clearly see in the pictures above, it was important to double-down on the branding in the header of the landing page and restate "CurryHouse" supported by its chili logo repeatedly in the background to very aggressively imprint its branding into the customers memory. 
 
@@ -88,3 +86,25 @@ In this section one will find a text describing what the offers could possibly i
 At the bottom of the page the customer will find another call-to-action asking them to subscribe to the newsletter. This leads them to a modal with an extremely simple form asking for email only, ensuring simplicity and effectiveness. The modal was added in order to keep the customer on the homepage, in case of wanting to revert back they would just have to press "cancel". Successful completion of the form would then lead the customer to a notification page, letting the customer know CurryHouse has successfully added them to their newsletter list. 
 
 Keeping the form extremely short and simple allows the customer to have an easy and non-intrusive experience, therefore yielding a higher return of interested parties for CurryHouse, enabling them to receive more information for targeted ads. 
+
+### Menu Page 
+
+![Menu Page Mobile](assets/images/readme-media/menupage-mobile.png)
+![Menu Page Tablet](assets/images/readme-media/menupage-tablet.png)
+![Menu Page Desktop](assets/images/readme-media/menupage-desktop.png)
+
+The pictures above show the customer that the menu page is consistently styled with the rest of the website, adhering to the overall branding, font choice, and color scheme of CurryHouse. 
+
+Menu title headers are linked in the navbar for easy and direct access to an individual section of the menu page seperating the menu page in three distinct parts (shareables, curries, and sides). Each title header is stylized to appear more important to indicate a new section, as well as the fact that it has its own color scheme, a border, and a text-decoration. 
+
+The menu item title is underlined and larger to let the customer know this is the item in question. The price below is in the secondary font, but this is the only time on the website that the secondary font does not have bold font weight in order to make the price seem less important and not attract attention. The individual menu items stick to the traditional color scheme chosen for the overall branding of the website. 
+
+Additionally the chili logo has been used on individual menu items to lets the customer know of its spiciness level. A fun and purposefully memorable way to remind the customer of the branding and simultaneously being informative. 
+
+### Gallery Page 
+
+![Gallery Page Mobile](assets/images/readme-media/gallerypage-mobile.png)
+![Gallery Page Tablet](assets/images/readme-media/gallerypage-tablet.png)
+![Gallery Page Desktop](assets/images/readme-media/gallerypage-desktop.png)
+
+It was important for the project to add a gallery page to enable the customer to have access to a visual experience at the restaurant without having to visit it in order to make a dining experience at CurryHouse more appealing and attractive. With pictures of the kitchen, dining space, dishes, and customers the visitor of the website is more informed as to what is to be expected, and depicts the restaurant in a positive light. As one can see above it is a responsive design, sizes and layout stays structured and consistent throughout each screen size. 
