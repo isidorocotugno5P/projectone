@@ -6,7 +6,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ## User Stories 
 
-1. Responsive Website & Easy Access to Key Pages
+### 1. Responsive Website & Easy Access to Key Pages
 
     - User Story: As a first-time visitor to the website I need a simple layout allowing me to access all key pages, making sure all relevant information is readily available without much effort. 
 
@@ -22,7 +22,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
         * Ensure key pages are easily accessible on navigation bar or homepage site.
         * Use clean practices to ensure professional and seemless website layout. 
 
-2. Interactive Menu with Limited-Time Specials
+### 2. Interactive Menu with Limited-Time Specials
 
     - User Story: As an interested customer I want to know current offers, specials, pricing, and any information relevant to the food available depicted in an appetizing and intriguing manner. 
 
@@ -38,7 +38,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
         * Create a well-structured menu page with clear categories and colorful item details.
         * Highlight special offers and integrate them into the homepage.
 
-3. Merchandise Display for CurryHouse Fans
+### 3. Merchandise Display for CurryHouse Fans
 
     - User Story: As a loyal and returning customer I want to be able to support my local CurryHouse by purchasing branded merchandise that aids the restaurant in marketing through exxlusive promo products. 
 
@@ -55,7 +55,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
         * Implement a dedicated merch page with clear product images and descriptions, as well as stock availability.
         * Adding a subscription form to the newsletter, if items have been sold out. 
 
-4. Newsletter Signup for Restaurant Updates
+### 4. Newsletter Signup for Restaurant Updates
 
     - User Story: As an interested returning customer, I want to easily subscribe to the CurryHouse newsletter, so I can receive updates about new menu items, promotions, and events.
 
@@ -70,7 +70,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
         * Integrate the form with an email marketing service (e.g., Mailchimp). - yet to learn
         * Display a success message after subscription.
 
-5. Social Media Links & Contact Information
+### 5. Social Media Links & Contact Information
 
     - User Story: As a customer, I want easy access to CurryHouse’s social media and contact details, so I can contact the restaurant for reservations, requests, etc.
 
@@ -257,7 +257,7 @@ The social media have a hover effect indicating to the user that this is a click
 
 ## Styles
 
-### Font 
+### Fonts
 
 Below you will find a breakdown of the primary and secondary font
 
@@ -286,9 +286,7 @@ Below you will find a breakdown of each color and its purpose, as well as their 
 
 [Quote from Blog:](https://www.stellendesign.com/hungry-colors-red-and-yellow/#:~:text=Using%20various%20shades%20of%20yellow,particularly%20when%20we're%20eating.)
 
- > And it’s not just used in branding. Using various shades of yellow and red in the environment have also been shown to increase energy and stimulate appetite. Both colors are known for creating strong associations, both mentally and emotionally. 
- 
- In other words, they make us feel good, particularly when we’re eating. So when we see them, we are reminded we felt good when we were eating, and the cycle perpetuates itself. 
+ > And it’s not just used in branding. Using various shades of yellow and red in the environment have also been shown to increase energy and stimulate appetite. Both colors are known for creating strong associations, both mentally and emotionally. In other words, they make us feel good, particularly when we’re eating. So when we see them, we are reminded we felt good when we were eating, and the cycle perpetuates itself. 
 
 The primary and secondary colors were chosen based on simple color psychology used by most fast-food chain restaurants known to the average person. Red and yellow are known to stimulate appetite and are the primary branding colors of most chain restaurants. Also, it helps build the brand goals because the colors remind the user of curry in it of itself. Red and yellow curry are globally known and relate to not only the use of color psychology but also the restaurants food as well. 
 
@@ -340,3 +338,54 @@ This sub-section depicts the basic layout used for the website (not all pages we
 ##### Desktop
 
 ![Gallery Wireframes Layout Desktop](assets/images/readme-media/basic-gallery-layout-desktop.png)
+
+## Testing 
+
+### Lighthouse 
+
+#### Homepage 
+
+##### Mobile 
+
+##### Desktop
+
+#### Menu
+
+##### Mobile 
+
+##### Desktop
+
+#### Gallery 
+
+##### Mobile 
+
+##### Desktop
+
+#### Contact 
+
+##### Mobile 
+
+##### Desktop
+
+#### Merch
+
+##### Mobile
+
+##### Desktop
+
+### HTML Validation 
+
+#### Home
+
+#### Menu 
+
+#### Gallery 
+
+#### Contact 
+
+#### Merch
+
+### CSS Validation 
+
+#### CSS Styles
+
