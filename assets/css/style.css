@@ -430,6 +430,12 @@ h5 span {
     text-decoration: none;
 }
 
+.opening-times {
+    border: 3px solid var(--secondary-color);
+    width: 50%;
+    margin-left: 10px;
+}
+
 /* Error Page */
 
 .error-text {

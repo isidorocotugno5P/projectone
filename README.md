@@ -8,7 +8,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ### 1. Responsive Website & Easy Access to Key Pages
 
-    - User Story: As a first-time visitor to the website I need a simple layout allowing me to access all key pages, making sure all relevant information is readily available without much effort. 
+- User Story: As a first-time visitor to the website I need a simple layout allowing me to access all key pages, making sure all relevant information is readily available without much effort. 
 
     - Acceptance Critera
 
@@ -24,7 +24,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ### 2. Interactive Menu with Limited-Time Specials
 
-    - User Story: As an interested customer I want to know current offers, specials, pricing, and any information relevant to the food available depicted in an appetizing and intriguing manner. 
+- User Story: As an interested customer I want to know current offers, specials, pricing, and any information relevant to the food available depicted in an appetizing and intriguing manner. 
 
     - Acceptance Criteria
 
@@ -40,7 +40,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ### 3. Merchandise Display for CurryHouse Fans
 
-    - User Story: As a loyal and returning customer I want to be able to support my local CurryHouse by purchasing branded merchandise that aids the restaurant in marketing through exxlusive promo products. 
+- User Story: As a loyal and returning customer I want to be able to support my local CurryHouse by purchasing branded merchandise that aids the restaurant in marketing through exxlusive promo products. 
 
     - Acceptance Criteria 
 
@@ -57,7 +57,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ### 4. Newsletter Signup for Restaurant Updates
 
-    - User Story: As an interested returning customer, I want to easily subscribe to the CurryHouse newsletter, so I can receive updates about new menu items, promotions, and events.
+- User Story: As an interested returning customer, I want to easily subscribe to the CurryHouse newsletter, so I can receive updates about new menu items, promotions, and events.
 
     - Acceptance Criteria 
 
@@ -72,7 +72,7 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ### 5. Social Media Links & Contact Information
 
-    - User Story: As a customer, I want easy access to CurryHouse’s social media and contact details, so I can contact the restaurant for reservations, requests, etc.
+- User Story: As a customer, I want easy access to CurryHouse’s social media and contact details, so I can contact the restaurant for reservations, requests, etc.
 
     - Acceptance Critera 
 
@@ -338,6 +338,108 @@ This sub-section depicts the basic layout used for the website (not all pages we
 ##### Desktop
 
 ![Gallery Wireframes Layout Desktop](assets/images/readme-media/basic-gallery-layout-desktop.png)
+
+## Technologies Used 
+
+### Languages 
+
+1. HTML 
+
+    * Page Markup
+
+2. CSS
+
+    * Styling
+
+3. Javascript 
+
+    * Interactive Design (Autoclosing Navigation Bar)
+
+### Frameworks 
+
+1. Bootstrap 
+
+    * Used for basic styling and outline (cards, navbar, carousel, etc.).
+
+### Libraries 
+
+1. Pexels 
+
+    * Used for all basic images on homepage and gallery
+
+2. Google Fonts 
+
+    * Font Styles     
+
+3. Font Awesome 
+
+    * Icons
+
+4. Freepik
+
+    * Title Icon 
+
+5. PNGTree
+
+    * Golden Thai-style Lace
+
+### Platforms 
+
+1. Github
+
+    * Storing code remotely and deployment
+
+2. Gitpod
+
+    * IDE for project developemnt 
+
+### Other Tools 
+
+1. Balsamiq 
+
+    * To develop wireframes 
+
+2. DeepAi
+
+    * All CurryHouse Merch Pictures
+
+3. Compress or Die
+
+    * Image compression and optimization 
+
+4. W3Schools
+
+    * HTML and CSS educational content
+
+5. WebAIM - Contrast Checker
+
+    * Check contrast of website
+
+6. Online PNG Tools
+
+    * Change color of PNG (Font Awesome Icons)
+
+7. WebAIM - WAVE
+
+    * Test accessibility 
+
+8. Google - Google Developer (Lighthouse)
+
+    * For testing
+
+9. Google - Pagespeed 
+
+    * For testing
+
+## Credits 
+
+1. Code Insitute - Boardwalk Games Project
+
+    * Javascript code for autoclosing navbar on mobile and tablet devices.
+
+2. ChatGPT
+
+    * Writing the paragraphs on homepage of website. 
 
 ## Testing 
 
