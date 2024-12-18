@@ -505,3 +505,24 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ![CSS Validation](assets/images/readme-media/css-validation.png)
 
+### General Testing 
+
+- Both forms require email for submission and arrive on success.html upon successful submission.
+- 
+
+### Mobile Testing
+
+- I tested the site personally on an Android device as well as an iOS device, making sure all processes function properly including buttons, links, phone number, google maps, etc. 
+- The site was sent to friends who tested on their devices of different screen sizes. 
+
+### Desktop Testing 
+
+- The majority of the testing occured and was optimized using Chrome. 
+- I personally tested the website on Chrome, Safari, and Firefox.
+- The site was tested by friends on several desktop devices with different screen sizes.
+
+## Bugs
+
+### Fixed Bugs 
+
+
