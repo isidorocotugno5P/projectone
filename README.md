@@ -87,6 +87,8 @@ At the bottom of the page the customer will find another call-to-action asking t
 
 Keeping the form extremely short and simple allows the customer to have an easy and non-intrusive experience, therefore yielding a higher return of interested parties for CurryHouse, enabling them to receive more information for targeted ads. 
 
+The modal that has been mentioned in this section is revised below the merch page content.
+
 ### Menu Page 
 
 ![Menu Page Mobile](assets/images/readme-media/menupage-mobile.png)
@@ -108,3 +110,41 @@ Additionally the chili logo has been used on individual menu items to lets the c
 ![Gallery Page Desktop](assets/images/readme-media/gallerypage-desktop.png)
 
 It was important for the project to add a gallery page to enable the customer to have access to a visual experience at the restaurant without having to visit it in order to make a dining experience at CurryHouse more appealing and attractive. With pictures of the kitchen, dining space, dishes, and customers the visitor of the website is more informed as to what is to be expected, and depicts the restaurant in a positive light. As one can see above it is a responsive design, sizes and layout stays structured and consistent throughout each screen size. 
+
+### Contact Page
+
+![Contact Page Mobile](assets/images/readme-media/contactpage-mobile.png)
+![Contact Page Tablet](assets/images/readme-media/contactpage-tablet.png)
+![Contact Page Desktop](assets/images/readme-media/contactpage-desktop.png)
+
+Keeping consistent with the color scheme and design elements, the contact page is also as seen above responsive to all screen sizes. On the contact page the customer has a opportunity to quickly access a google maps link embedded into the html of the website, showing the customer the map itself making it easier for them to have a better overview of the restaurants location. Also the customer has the possibility of clicking onto the phone number which is linked a telephone number, enabling the customer to call quickly without having to copy paste the number when interacting with the website on a mobile device, ensuring a straight forward and satisfactory customer experience, potentially leading to more reservations. Icons have been added to the address and phone number to visually represent their purpose to the customer. 
+
+### Merch Page 
+
+![Merch Page Mobile](assets/images/readme-media/merchpage-mobile.png)
+![Merch Page Tablet](assets/images/readme-media/merchpage-tablet.png)
+![Merch Page Desktop](assets/images/readme-media/merchpage-desktop.png)
+
+Again, the final page of this site is stylistically and visually consistent with the rest of the website, guaranteeing consistent visual branding and a memorable interactive experience. Card border have been removed, as well as the card body has been color the same as the background to remove appearance of "Bootstrap" cards, for a more seemlessly unique look consistent with what has been seen so far. The card buttons have been stylized like the rest, and just like all the other buttons have a hover effect to indicate to the customer you can engage this with a click of a mouse, or in the tablet and mobile case, with a click of a finger. 
+
+There is a clear overview and layout of the cards showing what merchandise is available to purchase with picture and a fun text explaining the item, as well as a item title. 
+
+The button reads "Check Availability" indicating that there is limited availability of these items, intriguing the customer to see if they are still able acquire one, making this a very exclusive aspect, differentiating this restaurant brand from most of the other ones. 
+
+The modal included on this page has been added below this content.
+
+### Modal
+
+This basic modal is supposed to make it very easy for the customer to sign up to the newsletter without having to fill out a long and pesky form. The modal conforms to styles that have been set so far, same background color and button designs, as well as header choices in order to create a unified experience. 
+
+#### Newsletter Modal
+
+![Modal Newsletter Home Page](assets/images/readme-media/modal-home.png)
+
+#### Merch Modal
+
+![Modal Merch Page](assets/images/readme-media/modal-merch.png)
+
+In comparison to the modal above a small text was added indicating to the customer that this item has been sold out and giving them the possibility to subscribe to the newsletter in order to find out when the next shipment of merchandise has come in. 
+
+### Success Page
