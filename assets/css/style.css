@@ -367,7 +367,7 @@ h5 span {
     color: var(--primary-color);
 }
 
-/* Footer Styling Section*/
+/* Footer Styling Section */
 
 #contact {
     background-image: url("../images/yellowpeppersmall.png");
@@ -405,8 +405,10 @@ h5 span {
     margin: 15px 0px;
 }
 
+/* Contact Page Styling Section */
+
 .first-section {
-    background-color: var(--primary-color);
+    background-color: var(--highlight-color);
     border: 3px solid var(--secondary-color);
 }
 
