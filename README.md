@@ -169,4 +169,91 @@ Similar to the success page the 404 error page indicates to the user that someth
 
 Found on each and every single page of the website is the footer which leads them to the social media apps that CurryHouse can be found on, which is one of the biggest goals. Which is why the footer only includes social media links, without address or phone number to focus the customer and lead them towards their social media profiles. In order to aid that goal, the style compliments the header in a contrasting manner by using the same stylistic theme and outline, but switching up the color scheme and using the other available colors that are still in line with the representation of the CurryHouse brand. 
 
-The social media links open in a new tab in order to keep the CurryHouse website open and make it easier for the user to get back to the website if necessary. 
+The social media links open in a new tab in order to keep the CurryHouse website open and make it easier for the user to get back to the website if necessary. Each individual social media app has its own icon, name, as well as border and background color making them all stand out individually to make the overview easier for the user to choose their preferred destination. As well as a clear footerheader indicating what the footer consists of, styled in the same manner as the social media links themselves. 
+
+The social media have a hover effect indicating to the user that this is a clickable link. Also on larger screen sizes the call to action "Follow Us on" has been added to try and drive more engagement through the social media links. To avoid a crowded footer and make the aesthetic overall more appealing the "Follow Us on" appears only or larger screen sizes. Furthermore on mobile screen sizes the boxed social media links appear below each other instead of next to each other, leaving the opporunity of clearly titling each social media app, instead of just using icons. 
+
+## Styles
+
+### Font 
+
+Below you will find a breakdown of the primary and secondary font
+
+#### Primary Font
+
+![Primary Font](assets/images/readme-media/font1.png)
+
+The primary font was chosen due to its fun and unintimidating nature that makes it seem like it was hand drawn, creating a sort of a raw authentic feeling, making the experience of the design more personal. This connects with the idea and goal that the brand is simple but traditionally authentic, but also has a childlike approachable nature while maintaining professionality and consistency.  
+
+#### Secondary Font
+
+![Secondary Font](assets/images/readme-media/font2.png)
+
+The secondary font was chosen also for its simplicity and ability to aesthetically work well in combination with the primary font. Almost all text using the secondary fon has been boldened, this was done to give the secondary font more presence in light of a very strong and attention grabbing primary font. Although the boldness allows for the secondary font to stick out more, it creates a perfect balance of seeming important but not robbing the primary font of its spotlight. 
+
+### Color Schemes
+
+Below you will find a breakdown of each color and its purpose, as well as their contrast score. 
+
+#### Color Psychology 
+
+![Primary Color](assets/images/readme-media/primary-color.png)
+![Secondary Color](assets/images/readme-media/secondary-color.png)
+
+
+
+Quote from Blog: [Link Text](https://www.stellendesign.com/hungry-colors-red-and-yellow/#:~:text=Using%20various%20shades%20of%20yellow,particularly%20when%20we're%20eating.)
+
+ > And it’s not just used in branding. Using various shades of yellow and red in the environment have also been shown to increase energy and stimulate appetite. Both colors are known for creating strong associations, both mentally and emotionally. 
+ 
+ In other words, they make us feel good, particularly when we’re eating. So when we see them, we are reminded we felt good when we were eating, and the cycle perpetuates itself. 
+
+The primary and secondary colors were chosen based on simple color psychology used by most fast-food chain restaurants known to the average person. Red and yellow are known to stimulate appetite and are the primary branding colors of most chain restaurants. Also, it helps build the brand goals because the colors remind the user of curry in it of itself. Red and yellow curry are globally known and relate to not only the use of color psychology but also the restaurants food as well. 
+
+#### Other Colors
+
+![Tertiary Color](assets/images/readme-media/tertiary-color.png)
+![Highlight Color](assets/images/readme-media/highlight-color.png)
+
+The tertiary color was chosen to be beige to give the primary text, which uses the primary color, a strong enough contrast for visibility and accessibility, making it easy for the user to read. The off-white nature of the color also helps add warmth, without the use of a boring blinding white. 
+
+The highlight color in this case was choosen for the far background of the page as well as individual and specific design choices like the button hover color in order to include a refreshing aspect. Green in contract to the warm colors of beige, yellow, and red has a freshness to it, similar to herbs used in food, specifically curry in this case. 
+
+#### Contrast Score
+
+![Contrast Score](assets/images/readme-media/contrast-score.png)
+
+This picture is evident of a satisfactory contrast score, ensuring readability on the website. 
+
+### Wireframes Layout 
+
+These sub-section depicts the basic layout used for the website (not all pages were designed using wireframe - some details may have been altered).
+
+#### Homepage 
+
+##### Mobile
+
+![Homepage Wireframes Layout Mobile](assets/images/readme-media/basic-homepage-layout-mobile.png)
+
+##### Desktop 
+
+![Homepage Wireframes Layout Desktop](assets/images/readme-media/basic-homepage-layout-desktop.png)
+
+#### Menu
+
+##### Mobile
+
+
+
+##### Desktop
+
+
+
+#### Gallery
+
+##### Mobile
+
+
+
+##### Desktop
+
