@@ -379,7 +379,7 @@ h5 span {
     color: var(--primary-color);
 }
 
-/* Footer Styling Section */
+/* Footer Styling Section*/
 
 #contact {
     background-image: url("../images/yellowpeppersmall.png");
@@ -396,12 +396,10 @@ h5 span {
 #contact .social-links i {
     color: var(--highlight-color);
     font-size: 1.9rem;
-    transition: color 0.3s ease-in-out;
 }
 
 .footerspan:hover {
     background-color: var(--tertiary-color);
-    transition: color 0.3s ease-in-out;
 }
 
 .footerspan {
@@ -444,7 +442,7 @@ h5 span {
 
 .opening-times {
     border: 3px solid var(--secondary-color);
-    width: 50%;
+    width: 18rem;
     margin-left: 10px;
 }
 
@@ -489,6 +487,10 @@ h5 span {
     .social-links {
         width: 14rem;
         margin: auto;
+    }
+
+    .opening-times {
+        width: 14rem;
     }
 
 }

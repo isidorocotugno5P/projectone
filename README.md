@@ -1,10 +1,16 @@
 # CurryHouse Concept Restaurant 
 
+![CurryHouse Logo](assets/images/readme-media/curryhouse-logo.png)
+
 The CurryHouse website was developed for a concept restaurant that serves different style curries from around the world in a fun, Asian-influenced hygge-style environment, offering branded merchandise and constantly changing menus in order to attract new as well as retain returning customers. This site will be targeted towards customers that value curry-related culture and their stylistic influences, especially from India and Southeast Asia, even if the menu choices are not limited to those areas. These are customers who are looking for an authentic dining experience but do not want to limit themselves to one country's food. CurryHouse hopes to attract dedicated customers to attain a large social media presence through merchandising and recognizable branding. Constantly changing available menu items to retain exclusivity and excitement for returning customers, as well as an incentive for new customers. 
 
 ![Responsive Mockup](assets/images/readme-media/responsive-design.png)
 
+[Link to Live Site](https://isidorocotugno5p.github.io/projectone/index.html)
+
+## Table of Content
 - [CurryHouse Concept Restaurant](#curryhouse-concept-restaurant)
+  - [Table of Content](#table-of-content)
   - [User Stories](#user-stories)
     - [1. Responsive Website and Easy Access to Key Pages](#1-responsive-website-and-easy-access-to-key-pages)
     - [2. Interactive Menu with Limited-Time Specials](#2-interactive-menu-with-limited-time-specials)
@@ -84,6 +90,8 @@ The CurryHouse website was developed for a concept restaurant that serves differ
     - [Desktop Testing](#desktop-testing)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
+  - [Future Features](#future-features)
+  - [Deployment](#deployment)
 
 
 ## User Stories 
@@ -633,4 +641,72 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ### Fixed Bugs 
 
+1. Merch cards were going over given background frame.
+   * Fix: Setting a max-width for smaller screen sizes.
 
+2. Carousel was shifting size due to alternating picture sizes.
+   * Fix: Adjusting and setting an overall frame size for the pictures in CSS.
+
+3. Overlapping text and images due to golden lace png (decoration) on sides of website.
+   * Fix: Adjusting padding/width for each screen size individually for a fully responsive website.
+
+4. Non-functioning phone number link on Contact page.
+   * Fix: Added "-" inbetween number sets on phone number.
+
+5. Unequally aligned pictures on gallery page laeding to badly pixelated images after forced adjustments.
+   * Fix: Cropping the images, or replacing them to have an even layout.
+
+6. Bad contrast/accessibility issues on footer for both header and social media links
+   * Fix: Created background on each element with set size and border.
+
+7. Secondary paragraph on first section of homepage titled "Hurry for our Curry" created an unpleasing amount of text for smaller screen sizes.
+   * Fix: Removed visibility of secondary paragraph for smaller screen sizes.
+
+8. Individual menu items were difficult to read due to contrast issues between primary and secondary color.
+   * Fix: Added and changed background color for each individual item to create more readable contrast.
+
+9. Clicking on "Shareables, Curries, Sides" of "Menu" dropdown in navbar covered menu section titles.
+    * Fix: Added padding top to the HTML in CSS to reveal each section title. 
+
+10. Submit button on form in modal was not working.
+    * Fix: Adjusting form element closing bracket location beneath the submit button.
+
+11. Items in navbar "Menu" section dropdown options were not properly visible due to contrast issues between primary and secondary color.
+    * Fix: Added hover element to CSS to ensure a color switch to tertiary and primary colors for better contrast.
+
+12. Background image on website caused the site to have a poor performance on lighthouse.
+    * Fix: Switch background image to background color.
+
+13. Poor mobile lighthouse performance on certain pages with pictures.
+    * Using fetchpriority (high/low) to improve LCP.
+
+14. Label element in footer was causing validation errors on W3C.
+    * Fix: Changed to a div.
+
+15. Accessibility issues due to headers not being used sequentially.
+    * Fix: Adjusted to proper sequence.
+
+16. "Menu" in navbar was turning black on hover which looked aesthetically unpleasing and inconsistent with rest of website
+    * Fix: Added "navbar-dark" bootstrap class to navbar element.
+
+17. Contrast of primary and tertiary color was not good enough causing accessibility score to suffer.
+    * Fix: Darkened the primary color enough to get a satisfactory score.
+
+18. Call-to-action ("Follow Us on") text in footer was using up to much space on smaller screen sizes, crowding the footer
+    * Removed visibility for smaller screen sizes
+
+## Future Features
+
+1. Using mailchimp to retrieve email information for newsletter and merch form.
+2. Zoom/Enlarge carousel feature for Gallery page so users can view pictures in larger sizes.
+3. Hover description effect for pictures in gallery with small complimentary text.
+4. Engagement customer form with choice options on what next months "Monthly Curry" would be including options to opt-in the newsletter. 
+5. Adding a customer review section.
+6. 
+
+## Deployment
+
+* The site was deployed to Github pages. Follow steps in order to deploy:
+  * From the Github repository, navigate to the Settings section
+  * From the source section dropdown-menu, select "Master Branch"
+  * Once master branch has been selected, the page will provide a link to the website.
