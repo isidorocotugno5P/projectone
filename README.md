@@ -4,9 +4,91 @@ The CurryHouse website was developed for a concept restaurant that serves differ
 
 ![Responsive Mockup](assets/images/readme-media/responsive-design.png)
 
+- [CurryHouse Concept Restaurant](#curryhouse-concept-restaurant)
+  - [User Stories](#user-stories)
+    - [1. Responsive Website and Easy Access to Key Pages](#1-responsive-website-and-easy-access-to-key-pages)
+    - [2. Interactive Menu with Limited-Time Specials](#2-interactive-menu-with-limited-time-specials)
+    - [3. Merchandise Display for CurryHouse Fans](#3-merchandise-display-for-curryhouse-fans)
+    - [4. Newsletter Signup for Restaurant Updates](#4-newsletter-signup-for-restaurant-updates)
+    - [5. Social Media Links \& Contact Information](#5-social-media-links--contact-information)
+  - [Features](#features)
+    - [Navigation Bar](#navigation-bar)
+      - [Dropdown Menu](#dropdown-menu)
+    - [Landing Page](#landing-page)
+    - [Home Page](#home-page)
+      - [Menu Section](#menu-section)
+      - [Monthly Curry Section](#monthly-curry-section)
+      - [Merch Section](#merch-section)
+      - [Newsletter Section](#newsletter-section)
+    - [Menu Page](#menu-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Page](#contact-page)
+    - [Merch Page](#merch-page)
+    - [Modal](#modal)
+      - [Newsletter Modal](#newsletter-modal)
+      - [Merch Modal](#merch-modal)
+    - [Success Page](#success-page)
+    - [404 Page](#404-page)
+    - [Footer](#footer)
+  - [Styles](#styles)
+    - [Fonts](#fonts)
+      - [Primary Font](#primary-font)
+      - [Secondary Font](#secondary-font)
+    - [Color Schemes](#color-schemes)
+      - [Color Psychology](#color-psychology)
+      - [Other Colors](#other-colors)
+      - [Contrast Score](#contrast-score)
+    - [Wireframes Layout](#wireframes-layout)
+      - [Homepage](#homepage)
+        - [Mobile](#mobile)
+        - [Desktop](#desktop)
+      - [Menu](#menu)
+        - [Mobile](#mobile-1)
+        - [Desktop](#desktop-1)
+      - [Gallery](#gallery)
+        - [Mobile](#mobile-2)
+        - [Desktop](#desktop-2)
+  - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks](#frameworks)
+    - [Libraries](#libraries)
+    - [Platforms](#platforms)
+    - [Other Tools](#other-tools)
+  - [Credits](#credits)
+  - [Testing](#testing)
+    - [Lighthouse](#lighthouse)
+      - [Homepage](#homepage-1)
+        - [Mobile](#mobile-3)
+        - [Desktop](#desktop-3)
+      - [Menu](#menu-1)
+        - [Mobile](#mobile-4)
+        - [Desktop](#desktop-4)
+      - [Gallery](#gallery-1)
+        - [Mobile](#mobile-5)
+        - [Desktop](#desktop-5)
+      - [Contact](#contact)
+        - [Mobile](#mobile-6)
+        - [Desktop](#desktop-6)
+      - [Merch](#merch)
+        - [Mobile](#mobile-7)
+        - [Desktop](#desktop-7)
+    - [HTML Validation](#html-validation)
+      - [Home](#home)
+      - [Menu](#menu-2)
+      - [Gallery](#gallery-2)
+      - [Contact](#contact-1)
+      - [Merch](#merch-1)
+    - [CSS Validation](#css-validation)
+    - [General Testing](#general-testing)
+    - [Mobile Testing](#mobile-testing)
+    - [Desktop Testing](#desktop-testing)
+  - [Bugs](#bugs)
+    - [Fixed Bugs](#fixed-bugs)
+
+
 ## User Stories 
 
-### 1. Responsive Website & Easy Access to Key Pages
+### 1. Responsive Website and Easy Access to Key Pages
 
 - User Story: As a first-time visitor to the website I need a simple layout allowing me to access all key pages, making sure all relevant information is readily available without much effort. 
 
@@ -528,8 +610,14 @@ This sub-section depicts the basic layout used for the website (not all pages we
 ### General Testing 
 
 - Both forms require email for submission and arrive on success.html upon successful submission.
-- 
-
+- All buttons function as intended.
+- All social media links function as intended, lead to the correct website and open in a new tab.
+- All navbar elements lead to the intended page, and menu dropdown lands above menu-section header making it clearly visible.
+- Carousel autoplays and has working "previous" and "next" functions.
+- CurryHouse navbar logo leads back to homepage upon clicking.
+- Formdump alternative (commented in) works properly.
+- Every page is responsive relative to all screen sizes.
+ 
 ### Mobile Testing
 
 - I tested the site personally on an Android device as well as an iOS device, making sure all processes function properly including buttons, links, phone number, google maps, etc. 
