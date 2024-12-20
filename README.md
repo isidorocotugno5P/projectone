@@ -453,31 +453,51 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ##### Mobile 
 
+![Homepage Lighthouse Mobile](assets/images/readme-media/homepage-lighthouse-mobile.png)
+
 ##### Desktop
+
+![Homepage Lighthouse Desktop](assets/images/readme-media/homepage-lighthouse-desktop.png)
 
 #### Menu
 
 ##### Mobile 
 
+![Menupage Lighthouse Mobile](assets/images/readme-media/menupage-lighthouse-mobile.png)
+
 ##### Desktop
+
+![Menupage Lighthouse Desktop](assets/images/readme-media/menupage-lighthouse-desktop.png)
 
 #### Gallery 
 
 ##### Mobile 
 
+![Gallerypage Lighthouse Mobile](assets/images/readme-media/gallerypage-lighthouse-mobile.png)
+
 ##### Desktop
+
+![Gallerypage Lighthouse Desktop](assets/images/readme-media/gallerypage-lighthouse-desktop.png)
 
 #### Contact 
 
 ##### Mobile 
 
+![Contactpage Lighthouse Mobile](assets/images/readme-media/contactpage-lighthouse-mobile.png)
+
 ##### Desktop
+
+![Contactpage Lighthouse Desktop](assets/images/readme-media/contactpage-lighthouse-desktop.png)
 
 #### Merch
 
 ##### Mobile
 
+![Merchpage Lighthouse Mobile](assets/images/readme-media/merchpage-lighthouse-mobile.png)
+
 ##### Desktop
+
+![Merchpage Lighthouse Desktop](assets/images/readme-media/merchpage-lighthouse-desktop.png)
 
 ### HTML Validation 
 
