@@ -363,6 +363,17 @@ h5 span {
     font-weight: bold;
 }
 
+.menu-item > .item-header {
+    text-decoration: underline;
+}
+
+.menu-item > .price {
+    text-decoration: none;
+    font-weight: normal!important;
+    text-size-adjust: 20%;
+    font-family: var(--secondary-font);
+}
+
 .spicy {
     color: var(--primary-color);
 }
