@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Restaurant Website">
+    <meta name="keywords" content="curry, food, restaurant, menu, spicy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CurryHouse | The Home of All Curries</title>
     <!-- Curry Icon -->
@@ -16,7 +18,7 @@
 
 <body class="d-flex flex-column">
     <!-- Navigation Bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">CurryHouse <i class="fa-solid fa-pepper-hot"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -72,10 +74,10 @@
             <div class="row text-center">
                 <div class="merch-section">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/merch/hatmerch.webp" class="card-img-top"
-                            alt="a picture of our branded curryhouse caps in red with logo on the front">
+                        <img src="assets/merch/hatmerch.webp" class="card-img-top" loading="lazy"
+                            alt="a picture of our branded curryhouse caps in red with logo on the front" fetchpriority="high">
                         <div class="card-body">
-                            <h5 class="card-title">Cap</h5>
+                            <h4 class="card-title">Cap</h4>
                             <p class="card-text">Show everyone your dedication to curry and rep our caps!</p>
                             <a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Check Availability</a>
@@ -85,7 +87,7 @@
                         <img src="assets/merch/keychainmerch.webp" class="card-img-top"
                             alt="a picture of our branded keychain with logo attached to the keychain itself">
                         <div class="card-body">
-                            <h5 class="card-title">Keychain</h5>
+                            <h4 class="card-title">Keychain</h4>
                             <p class="card-text">Think of us everytime you open the door to your home or car!</p>
                             <a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Check Availability</a>
@@ -99,7 +101,7 @@
                         <img src="assets/merch/socksmerch.webp" class="card-img-top"
                             alt="a picture of our curryhouse branded socks with logo">
                         <div class="card-body">
-                            <h5 class="card-title">Socks</h5>
+                            <h4 class="card-title">Socks</h4>
                             <p class="card-text">Let us warm your feet and your stomachs!</p>
                             <a href="#" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Check Availability</a>
@@ -109,7 +111,7 @@
                         <img src="assets/merch/boxermerch.webp" class="card-img-top"
                             alt="a picture of our branded boxer briefs with our curryhouse logo in the front">
                         <div class="card-body">
-                            <h5 class="card-title">Boxer</h5>
+                            <h4 class="card-title">Boxer</h4>
                             <p class="card-text">Keep us closer then ever before with our boxers!
                             </p>
                             <a href="#" class="btn btn-primary" data-bs-toggle="modal"
@@ -127,7 +129,7 @@
                         <!--  <form action="https://formdump.codeinstitute.net" method="POST"> -->
                         <form action="success.html" method="get">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Sold Out!</h1>
+                                <h2 class="modal-title fs-5 text-center" id="exampleModalLabel">Sold Out!</h2>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>

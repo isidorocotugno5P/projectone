@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Restaurant Website">
+    <meta name="keywords" content="curry, food, restaurant, menu, spicy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CurryHouse | The Home of All Curries</title>
     <!-- Curry Icon -->
@@ -82,7 +84,7 @@
         <div class="row">
             <div class="text-center">
                 <h1 class="display-3"><span>CurryHouse</span></h1>
-                <h2 class="sub-heading display-5"><span>Home of the Curry</span></h2>
+                <h2 class="sub-heading display-6"><span>Home of the Curry</span></h2>
             </div>
         </div>
     </header>
@@ -98,38 +100,38 @@
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="assets/images/butter-chicken.webp" class="d-block w-100"
-                                        alt="A picture of butter chicken">
+                                    <img fetchpriority="high" src="assets/images/butter-chicken.webp" class="d-block w-100"
+                                        alt="A picture of butter chicken" >
                                     <div class="carousel-caption d-md-block">
-                                        <h5><span>Butter Chicken - India</span></h5>
+                                        <h4><span>Butter Chicken - India</span></h4>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="assets/images/japanese-curry.webp" class="d-block w-100"
-                                        alt="A picture of a bowl of japanese curry">
+                                    <img fetchpriority="low" src="assets/images/japanese-curry.webp" class="d-block w-100"
+                                        alt="A picture of a bowl of japanese curry" loading="lazy">
                                     <div class="carousel-caption d-md-block">
-                                        <h5><span>Katsu Curry - Japan</span></h5>
+                                        <h4><span>Katsu Curry - Japan</span></h4>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div fetchpriority="low" class="carousel-item">
                                     <img src="assets/images/thai-green-curry.webp" class="d-block w-100"
-                                        alt="A picture of a bowl of thai green curry and a bowl of rice">
+                                        alt="A picture of a bowl of thai green curry and a bowl of rice" loading="lazy">
                                     <div class="carousel-caption d-md-block">
-                                        <h5><span>Green Curry - Thailand</span></h5>
+                                        <h4><span>Green Curry - Thailand</span></h4>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div fetchpriority="low" class="carousel-item">
                                     <img src="assets/images/malay-curry.webp" class="d-block w-100"
-                                        alt="Cooked Food and Rice Served on Banana Leaf">
+                                        alt="Cooked Food and Rice Served on Banana Leaf" loading="lazy">
                                     <div class="carousel-caption d-md-block">
-                                        <h5><span>Rendang Curry - Malaysia</span></h5>
+                                        <h4><span>Rendang Curry - Malaysia</span></h4>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div fetchpriority="low" class="carousel-item">
                                     <img src="assets/images/shrimp-curry.webp" class="d-block w-100"
-                                        alt="A bowl of soup with shrimp, lime and herbs">
+                                        alt="A bowl of soup with shrimp, lime and herbs" loading="lazy">
                                     <div class="carousel-caption d-md-block">
-                                        <h5><span>Shrimp Curry - Myanmar</span></h5>
+                                        <h4><span>Shrimp Curry - Myanmar</span></h4>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +176,7 @@
                 <h3 class="text-center">Curry of the Month</h3>
                 <div class="monthlycurry mb-4">
                     <div class="text-center">
-                        <img class="mole" src="assets/images/mole.webp"
+                        <img fetchpriority="low" class="mole" src="assets/images/mole.webp"
                             alt="A picture of mexican mole with beautiful toppings in a while bowl on a gray marble countertop">
                     </div>
                     <div class="moletext text-center text-lg-start">
@@ -213,7 +215,7 @@
                         </h5>
                     </div>
                     <div class="text-center">
-                        <img class="merch" src="assets/images/merch-bundle.webp"
+                        <img fetchpriority="low" class="merch" src="assets/images/merch-bundle.webp"
                             alt="A picture of the Curryhouse merchandise">
                     </div>
                 </div>
@@ -224,13 +226,13 @@
             <div id="newsletter" class="row text-center newsletter my-4">
                 <h3 class="">Join our Newsletter!</h3>
 
-                <h5 class="my-4">
+                <h4 class="my-4">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         Join Us!
                     </button>
-                </h5>
+                </h4>
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
