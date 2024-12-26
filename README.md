@@ -618,17 +618,31 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ![CSS Validation](assets/images/readme-media/css-validation.png)
 
-### WebAim - Wave
+### WebAim - WAVE
 
 #### Home 
 
+![WAVE Test - Home](assets/images/readme-media/wave-home.png)
+
 #### Menu 
+
+![WAVE Test - Menu](assets/images/readme-media/wave-menu.png)
 
 #### Gallery 
 
+![WAVE Test - Gallery](assets/images/readme-media/wave-gallery.png)
+
 #### Contact 
 
+![WAVE Test - Contact](assets/images/readme-media/wave-contact.png)
+
 #### Merch
+
+![WAVE Test - Merch](assets/images/readme-media/wave-merch.png)
+
+##### WebAim - WAVE: Test Summary
+
+All in all, I was very satisfied with my test results on WAVE. There were two issues that appeared in the end, one of them one could consider a bug, the other one was voluntarily left as "Alert". The first one was two contrast issues appearing on the index.html page when runnning the WAVE test, the only issue is although the contrast errors were visible in the "Summary" on the left hand on the page my Mentor and I were both unable to find the origin on the issue on the actual page itself. The error message did not appear and was not visible on the WAVE report on the right hand side, being unable to find the origin of the issue I chose to leave it as is as there was not much I could do. The secondary issue was an "Alert" for a redudant link because both the "CurryHouse" logo and the "Home" link in the navigation bar both linked back to index.html, I chose to leave this because I have seen and experience an endless amount of websites doing this and did not think it was important to "fix". This alert appears on every page after the homepage itself. 
 
 ### General Testing 
 
