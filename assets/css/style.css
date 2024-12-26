@@ -22,15 +22,6 @@ body {
     background: var(--highlight-color) ;
 }
 
-.sub-heading {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
-}
-
-.header {
-    border: 5px solid var(--primary-color);
-}
-
 header,
 main {
     background-color: var(--tertiary-color);
@@ -40,19 +31,6 @@ main {
     background-color: var(--tertiary-color)!important;
     background: url("../images/golden-lace.png") center/cover;
     background-attachment: fixed;
-}
-
-.gallery-main {
-    background-color: transparent!important;
-    background: none;
-}
-
-#header {
-    background-image: url("../images/redpeppersmall.png");
-    background-color: var(--secondary-color);
-    background-position: center top;
-    padding-top: 10px;
-    max-width: none;
 }
 
 h1,
@@ -78,6 +56,20 @@ h5 span {
     border: 3px solid var(--primary-color);
 }
 
+.sub-heading {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.header {
+    border: 5px solid var(--primary-color);
+}
+
+.gallery-main {
+    background-color: transparent!important;
+    background: none;
+}
+
 .sub-heading span {
     font-family: var(--primary-font);
     background-color: var(--primary-color);
@@ -94,6 +86,14 @@ h5 span {
 
 .display-6 span {
     padding: 7px;
+}
+
+#header {
+    background-image: url("../images/redpeppersmall.png");
+    background-color: var(--secondary-color);
+    background-position: center top;
+    padding-top: 10px;
+    max-width: none;
 }
 
 /* Global Button Styling */
@@ -133,17 +133,19 @@ h5 span {
     left: 0;
 }
 
-.carousel-item img {
-    height: 100%;
-    object-fit: cover;
-}
-
 .carousel-text {
     padding-top: 20px;
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: bold;
 }
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /* Mole Section - Home Page */
 
 .mole {
@@ -152,14 +154,14 @@ h5 span {
     margin-top: 1em;
 }
 
+.moletext {
+    margin-top: 20px;
+}
+
 .moletext > p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: bold;
-}
-
-.moletext {
-    margin-top: 20px;
 }
 
 .moletext h5 span {
@@ -242,10 +244,6 @@ h5 span {
     background-color: var(--primary-color);
 }
 
-#navbar {
-    background-color: var(--primary-color);
-}
-
 .navbar-nav .nav-item .active {
     text-decoration: underline;
     color: var(--tertiary-color);
@@ -254,6 +252,10 @@ h5 span {
 .dropdown-item:hover {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
+}
+
+#navbar {
+    background-color: var(--primary-color);
 }
 
 /* Merch Page Styling Section */
@@ -302,17 +304,41 @@ h5 span {
     padding: 20px;
 }
 
-.menu-header span {
-    border: 10px ridge var(--secondary-color);
-    background-color: var(--highlight-color);
-}
-
 .menu-bg {
     background-color: var(--primary-color);
 }
 
 .menu {
     background: url("../images/golden-lace.png") center/cover;
+}
+
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.menu-item {
+    max-width: 18rem;
+    background-color: var(--tertiary-color);
+    border: 5px inset var(--secondary-color);
+    margin-bottom: 2em;
+} 
+
+.menu-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.spicy {
+    color: var(--primary-color);
+}
+
+.menu-header span {
+    border: 10px ridge var(--secondary-color);
+    background-color: var(--highlight-color);
 }
 
 .menulink h5{
@@ -328,13 +354,6 @@ h5 span {
     background-color: var(--tertiary-color)!important;
 }
 
-.menu-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
 .menu-section h5 {
     color: var(--primary-color);
     text-decoration: underline var(--primary-color);
@@ -344,19 +363,6 @@ h5 span {
     color: var(--primary-color);
     font-family: var(--secondary-font);
 }
-
-.menu-sub {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.menu-item {
-    max-width: 18rem;
-    background-color: var(--tertiary-color);
-    border: 5px inset var(--secondary-color);
-    margin-bottom: 2em;
-} 
 
 .menu-item > p {
     font-family: var(--secondary-font);
@@ -375,11 +381,24 @@ h5 span {
     font-family: var(--secondary-font);
 }
 
-.spicy {
-    color: var(--primary-color);
+/* Footer Styling Section*/
+
+.footerspan {
+    background-color: var(--secondary-color);
+    padding-left: 10px;
+    border: 3px solid var(--highlight-color);
 }
 
-/* Footer Styling Section*/
+.footerspan:hover {
+    background-color: var(--tertiary-color);
+}
+
+.social-links h3 {
+    color: var(--highlight-color);
+    padding-left: 5px;
+    padding-right: 20px;
+    margin: 15px 0px;
+}
 
 #contact {
     background-image: url("../images/yellowpeppersmall.png");
@@ -398,36 +417,11 @@ h5 span {
     font-size: 1.9rem;
 }
 
-.footerspan:hover {
-    background-color: var(--tertiary-color);
-}
-
-.footerspan {
-    background-color: var(--secondary-color);
-    padding-left: 10px;
-    border: 3px solid var(--highlight-color);
-}
-
-.social-links h3 {
-    color: var(--highlight-color);
-    padding-left: 5px;
-    padding-right: 20px;
-    margin: 15px 0px;
-}
-
 /* Contact Page Styling Section */
 
 .first-section {
     background-color: var(--highlight-color);
     border: 3px solid var(--secondary-color);
-}
-
-.first-section * {
-    color: var(--secondary-color)!important;
-}
-
-.address * {
-    font: var(--secondary-font);
 }
 
 .footer-header {
@@ -436,14 +430,22 @@ h5 span {
     border: 3px solid var(--highlight-color);
 }
 
-.social-links * {
-    text-decoration: none;
-}
-
 .opening-times {
     border: 3px solid var(--secondary-color);
     width: 18rem;
     margin-left: 10px;
+}
+
+.social-links * {
+    text-decoration: none;
+}
+
+.first-section * {
+    color: var(--secondary-color)!important;
+}
+
+.address * {
+    font: var(--secondary-font);
 }
 
 /* Error Page */
@@ -458,6 +460,8 @@ h5 span {
 
 /* Media Queries for up to 1199px */
 
+/* Removes "Follow Us on" call-to-action text in footer on social media links for screen sizes smaller than 1200px */
+
 @media only screen and (max-width: 1199px) {
     .follow {
         display: none;
@@ -466,6 +470,8 @@ h5 span {
 
 /* Media Queries for up to 991px */
 
+/* Removes second paragraph in first section of homepage for scrensizes smaller than 992px */
+
 @media only screen and (max-width: 991px) {
     .second-paragraph {
         display: none;
@@ -473,6 +479,8 @@ h5 span {
 }
 
 /* Media Queries for up to 767px */
+
+/* Removes menu title in carousel, adjusts social media links, and opening times on contact page for screen sizes smaller than 768px */
 
 @media screen and (max-width: 767px) {
 
@@ -497,6 +505,8 @@ h5 span {
 
 /* Media Queries for up to 575 */
 
+/* Removes golden lace decoration for smaller screen sizes */
+
 @media screen and (max-width: 575px) {
 
     main {
@@ -507,6 +517,8 @@ h5 span {
 
 /* Media Queries for up to 355px */
 
+/* Adjusts cards in merch section for smaller screen sizes */
+
 @media screen and (max-width: 355px) {
 
     .merch-section .card {
@@ -516,6 +528,8 @@ h5 span {
 }
 
 /* Media Queries from 576px */
+
+/* Adjusts carousel size, position, as well as text of mole and merch section for screen sizes starting at 576px */
 
 @media screen and (min-width: 576px) {
     .carousel {
@@ -538,14 +552,12 @@ h5 span {
 
 /* Media Queries from 768px */
 
+/* Adjusts multiple size, positioning, and visibility aspects of several sections throughout website starting from 768px */
+
 @media screen and (min-width: 768px) {
 
     .sub-heading {
         padding-top: 7px;
-    }
-
-    #navbar {
-        max-width: 100%;
     }
 
     .carousel {
@@ -622,9 +634,15 @@ h5 span {
         margin-left: 30px;
     }
 
+    #navbar {
+        max-width: 100%;
+    }
+
 }
 
 /* Media Queries from 992px */
+
+/* Adjusts multiple size and positioning aspects of several sections throughout website starting from 768px */
 
 @media screen and (min-width: 992px) {
 
@@ -684,6 +702,8 @@ h5 span {
 
 /* Media Queries from 1200px */
 
+/* Adjusts multiple size and positioning aspects on home and merch page starting from 1200px */
+
 @media screen and (min-width: 1200px) {
 
     .carousel {
@@ -730,6 +750,8 @@ h5 span {
 }
 
 /* Media Queries from 1400px */
+
+/* Adjusts multiple size and positioningaspects of several sections on homepage starting from 1400px */
 
 @media screen and (min-width: 1400px) {
 
