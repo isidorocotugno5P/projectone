@@ -644,6 +644,36 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 All in all, I was very satisfied with my test results on WAVE. There were two issues that appeared in the end, one of them one could consider a bug, the other one was voluntarily left as "Alert". The first one was two contrast issues appearing on the index.html page when runnning the WAVE test, the only issue is although the contrast errors were visible in the "Summary" on the left hand on the page my Mentor and I were both unable to find the origin on the issue on the actual page itself. The error message did not appear and was not visible on the WAVE report on the right hand side, being unable to find the origin of the issue I chose to leave it as is as there was not much I could do. The secondary issue was an "Alert" for a redudant link because both the "CurryHouse" logo and the "Home" link in the navigation bar both linked back to index.html, I chose to leave this because I have seen and experience an endless amount of websites doing this and did not think it was important to "fix". This alert appears on every page after the homepage itself. 
 
+### W3C - Link Checker
+
+#### Home
+
+![Link Checker - Home](assets/images/readme-media/urlchecker-home.png)
+
+#### Menu
+
+![Link Checker - Home](assets/images/readme-media/urlchecker-menu.png)
+
+#### Gallery
+
+![Link Checker - Gallery](assets/images/readme-media/urlchecker-gallery.png)
+
+#### Contact 
+
+![Link Checker - Contact](assets/images/readme-media/urlchecker-contact.png)
+
+#### Merch
+
+![Link Checker - Merch](assets/images/readme-media/urlchecker-merch.png)
+
+#### CSS
+
+![Link Checker - CSS](assets/images/readme-media/urlchecker-css.png)
+
+##### W3C - Link Checker: Test Summary
+
+The link checker found errors on each page of the website due to the fact that "robot.txt" blocked it from opening the link. Each of these specific errors were checked manually and all links on each page were functioning normally, lead to the correct page, and opened in a new tab. The specific errors on the contact page that was incited by a phone number link was checked via an Android manually which confirmed that the phone number was functioning properly and lead the user to call the given number. Same goes for the google maps link that was excluded from testing due to the "robot.txt" exclusion rules. 
+
 ### General Testing 
 
 - Both forms require email for submission and arrive on success.html upon successful submission.
