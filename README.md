@@ -87,13 +87,40 @@ The purpose of this website was to gain experience in developing a restaurant we
       - [Contact](#contact-1)
       - [Merch](#merch-1)
     - [CSS Validation](#css-validation)
+    - [WebAim - WAVE](#webaim---wave)
+      - [Home](#home-1)
+      - [Menu](#menu-3)
+      - [Gallery](#gallery-3)
+      - [Contact](#contact-2)
+      - [Merch](#merch-2)
+        - [WebAim - WAVE: Test Summary](#webaim---wave-test-summary)
+    - [W3C - Link Checker](#w3c---link-checker)
+      - [Home](#home-2)
+      - [Menu](#menu-4)
+      - [Gallery](#gallery-4)
+      - [Contact](#contact-3)
+      - [Merch](#merch-3)
+      - [CSS](#css)
+        - [W3C - Link Checker: Test Summary](#w3c---link-checker-test-summary)
     - [General Testing](#general-testing)
     - [Mobile Testing](#mobile-testing)
     - [Desktop Testing](#desktop-testing)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
   - [Future Features](#future-features)
+  - [Self-Taught Elements](#self-taught-elements)
+    - [Lazy Loading](#lazy-loading)
+    - [Fetchpriority](#fetchpriority)
+    - [Critical CSS](#critical-css)
+    - [Adjustment of the Javascript Autoclose Code](#adjustment-of-the-javascript-autoclose-code)
+    - [Pre-Loading LCP Image](#pre-loading-lcp-image)
+    - [Adding Form element to Modal](#adding-form-element-to-modal)
+    - [Golde Lace Decoration](#golde-lace-decoration)
   - [Deployment](#deployment)
+    - [Cloning Repository](#cloning-repository)
+    - [Fork](#fork)
+    - [Local Deployment](#local-deployment)
+    - [Python Webserver Port](#python-webserver-port)
 
 
 ## User Stories 
@@ -677,24 +704,32 @@ The link checker found errors on each page of the website due to the fact that "
 ### General Testing 
 
 - Both forms require email for submission and arrive on success.html upon successful submission.
+  - Manually tested all forms by entering email, making sure that forms require an email for submission and that upon submission the user gets a success message, in this case it is arriving on a page that informs the user of his subsciprition efforts being a success. 
 - All buttons function as intended.
+  - Manually tested all buttons checking that they function as intended on multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - All social media links function as intended, lead to the correct website and open in a new tab.
+  - Manually tested all links on all pages with multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and Iphone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - All navbar elements lead to the intended page, and menu dropdown lands above menu-section header making it clearly visible.
+  - Navbar functions as intended as well as its autoclose feature on each page, this was tested on multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - Carousel autoplays and has working "previous" and "next" functions.
+  - Manually tested all carousel functions, including the buttons, and made sure it was autoplaying on multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - CurryHouse navbar logo leads back to homepage upon clicking.
+  - Manually tested this link on multiple devices in multiple browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - Formdump alternative (commented in) works properly.
+  - Manually tested this on Chrome on my Mac Studio. 
 - Every page is responsive relative to all screen sizes.
+  - Tested this on google developer, as well as all the devices and browsers I could get my hands on making sure my website is responsive across all platforms on all screen sizes (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
  
 ### Mobile Testing
 
-- I tested the site personally on an Android device as well as an iOS device, making sure all processes function properly including buttons, links, phone number, google maps, etc. 
-- The site was sent to friends who tested on their devices of different screen sizes. 
+- I tested the site personally on an Android (Galaxy S8) device as well as an iOS device (IPhone 13 Pro Max), making sure all processes function properly including buttons, links, phone number, google maps, etc. 
+- The site was sent to friends who tested on their devices of different screen sizes (incl. different types of devices on different versions of different browsers.). 
 
 ### Desktop Testing 
 
 - The majority of the testing occured and was optimized using Chrome. 
-- I personally tested the website on Chrome, Safari, and Firefox.
-- The site was tested by friends on several desktop devices with different screen sizes.
+- I personally tested the website on Chrome, Safari, and Firefox using google developer on my Macbook Pro and on my Mac Studio. 
+- The site was tested by friends on several desktop devices with different screen sizes (incl. different types of devices on different versions of different browsers.)
 
 ## Bugs
 
@@ -761,11 +796,82 @@ The link checker found errors on each page of the website due to the fact that "
 3. Hover description effect for pictures in gallery with small complimentary text.
 4. Engagement customer form with choice options on what next months "Monthly Curry" would be including options to opt-in the newsletter. 
 5. Adding a customer review section.
-6. 
+
+## Self-Taught Elements
+
+Overall most of these features I taught myself solely because I made it a priority to get good lighthouse scores, and on my quest to get the best scores I could I came across many of these components.
+
+### Lazy Loading 
+
+I applied the lazy load feature to certain image elements of the cards on the merch page so help performance issues that came up in Lighthouse. 
+
+### Fetchpriority 
+
+I adjusted all of the carousel pictures on the homepage to have either a high or low fetchpriority to improve the largest contentful paint loading time in Lighthouse for a better performance. 
+
+### Critical CSS
+
+I learned how to use critical CSS in order to improve the loading times on my websites so I could gain a better overall performance score on Lighthouse. Of course the improvements, including the previous ones that came from these self-taught features, is not necessarily to ultimately improve my lighthouse score but primarily to improve user experience, sinc that is the absolute end goal. 
+
+### Adjustment of the Javascript Autoclose Code
+
+The secondary dropdown menu of my navbar was not closing if one was using it to navigate the menu whilst being on the menu page, so I had to learn where to add "data-bs-toggle" so it would autoclose in that scenario as it was on all other pages.  
+
+### Pre-Loading LCP Image
+
+I taught myself how to pre-load an image and prioritize the loading of this element as it was slowing down my performance and ultimately affecting user experience drastically, this ended up massively improving my LCP loading time. 
+
+### Adding Form element to Modal
+
+Adding a form element to the modal itself was new for me but something I was very appreciative to learn due to the fact that I thought it was very aesthetially pleasing as well as saved me a lot of space on the main page that led to the modal making it more interactive and giving the "call-to-action to join the newsletter almost more purpose by doing so. 
+
+### Golde Lace Decoration
+
+I was proud of the golden lace I added as decoration on the side of the website as I thought it added to the branding but also the overall atmosphere I was trying to achieve by creating this website. As a fixed element, the way it moved as one was scrolling, was an aesthetically pleasing and attention grabbing feature. 
 
 ## Deployment
 
-* The site was deployed to Github pages. Follow steps in order to deploy:
-  * From the Github repository, navigate to the Settings section
-  * From the source section dropdown-menu, select "Master Branch"
-  * Once master branch has been selected, the page will provide a link to the website.
+### Cloning Repository 
+
+1. Go to project repository [here](https://github.com/isidorocotugno5P/projectone)
+2. Click on the green button labeled "Code" near the top right of the repository
+3. Under the "Local" tab under the green button labeled "Code" copy the URL using HTTPS, make sure you are on the "HTTPS" beneath the "Local" tab of the green button labeled "<> Code"
+4. You can choose to clone the repository with "SSH" or "GTIHub CLI" beneath the tabs labeled under each respective name
+5. To copy each given URL click the copy button next to the URL under each given tab or highlight the URL itself and copy it directly. 
+6. Open a terminal on your personal workspace on Github
+7. Adapt and change the current working directory to the specific location where you would like your directory cloned
+8. Into the terminal type in <code>git clone</code> and paste any of the URL you copied earlier
+9. Press enter and your clone will be created
+
+### Fork
+
+1. Follow the previously given link to the given repository of this project
+2. On the top right corner of the page you will see a dropdown button link labeled "Fork"
+3. Press on it and you should see your own personal Github User ID assuming you have one
+4. Click on your User ID to compute the fork
+5. Now your browser should redirect you to the forked repository that should have been allocated in your own Github
+6. Now if you view the dropdown button on the top right of your own Github organization labeled "Fork" the value should have increased by "1"
+7. You have successfuly copied the original repository 
+
+### Local Deployment
+
+1. Once you have successfuly cloned or forked the repository it is time to locally deploy the website
+2. Log into your own Github account, assuming that you have completed the previous steps you should have already had an account if you do not have an account please create one [here](https://github.com/). Once completed please follow the steps above for cloning or forking ideally before locally deploying the site.
+3. Once you have made a clone or fork of your the linked repository above the repo should appear on the left hand side of your Github dashboard
+4. Click on project repository
+5. Click on the tabs labelled "Settings" to the right of the tab labelled "Insights"
+6. On the left hand side of the Settings tab you will have to naviagte to the section called "Pages"
+7. Once you have clicked on Pages you are going to have to set the "Source" to "Deploy from Branch", the "Main Branch", should be selected and the folder location has to be set to "/root"
+8. Once all setting are set correctly press save and your website should be properly deployed
+9. Return to the tab labelled "Code" on the same level you found the "Setting" tabs earlier, wait a few seconds or minutes, ideally refresh your repository, and your deployed website should be located on the right side of the repository under a section labelled "github-pages"
+10. The given link should be an active link to your live website
+
+### Python Webserver Port 
+
+1. If you do not need a local deployment follow these steps in order to achieve a quick overview of the website
+2. Once you have forked or cloned the linked repository, in your own github dashboard once you have clicked on the cloned or forked repository click on the green button labelled "Open" which will prompt your Github IDE workstation 
+3. In the terminal type in <code>python3 -m http.server</code> to create a port
+4. After a few seconds you should receive a pop up on the right of your workstation which will prompt you to make a choice on the deployed port. 
+5. To view the current version of the coded website click on the button labelled "Open Browser"
+6. This is the current version of the website that has been coded, changed, adapted, or altered on the current repository you have cloned or forked, any saved changed will be adapted on this version of the website before you <code>git push</code> the code and deploy the website
+
