@@ -4,6 +4,8 @@
 
 The CurryHouse website was developed for a concept restaurant that serves different style curries from around the world in a fun, Asian-influenced hygge-style environment, offering branded merchandise and constantly changing menus in order to attract new as well as retain returning customers. This site will be targeted towards customers that value curry-related culture and their stylistic influences, especially from India and Southeast Asia, even if the menu choices are not limited to those areas. These are customers who are looking for an authentic dining experience but do not want to limit themselves to one country's food. CurryHouse hopes to attract dedicated customers to attain a large social media presence through merchandising and recognizable branding. Constantly changing available menu items to retain exclusivity and excitement for returning customers, as well as an incentive for new customers. 
 
+The purpose of this website was to gain experience in developing a restaurant website with broad requirements to get wide scope of experience in developing online sites for these types of services. The reason for this is because I originally approached a restaurant in my neighborhood who I knew did not have a well developed online presence, I offered my services and they accepted, but I felt that I needed to improve my capabilities before being able to offer a legitimate service, that I myself would be satisfying with offering in the first place. I took it upon myself to make this my first project in order to grow specifically according to my own demands as a developer. Although I am satisfied with my growth I will not be taking myself up on the project just yet as I feel there is far too much to lean before being able to offer a service I myself would be proud to offer. 
+
 ![Responsive Mockup](assets/images/readme-media/responsive-design.png)
 
 [Link to Live Site](https://isidorocotugno5p.github.io/projectone/index.html)
@@ -433,105 +435,106 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ### Languages 
 
-1. HTML 
+1. [HTML](https://whatwg.org/) 
 
     * Page Markup
 
-2. CSS
+2. [CSS](https://www.w3.org/)
 
     * Styling
 
-3. Javascript 
+3. [Javsascript](https://www.oracle.com/developer/javascript/)
 
     * Interactive Design (Autoclosing Navigation Bar)
 
 ### Frameworks 
 
-1. Bootstrap 
+1. [Bootstrap](https://getbootstrap.com/)
 
     * Used for basic styling and outline (cards, navbar, carousel, etc.).
 
 ### Libraries 
 
-1. Pexels 
+1. [Pexels](https://www.pexels.com/)
 
     * Used for all basic images on homepage and gallery
 
-2. Google Fonts 
+2. [Google Fonts](https://fonts.google.com/)
 
     * Font Styles     
 
-3. Font Awesome 
+3. [Font Awesome](https://fontawesome.com/)
 
     * Icons
 
-4. Freepik
+4. [Freepik](https://www.freepik.com/)
 
     * Title Icon 
 
-5. PNGTree
+5. [PNGTree](https://www.pngtree.com/)
 
     * Golden Thai-style Lace
 
 ### Platforms 
 
-1. Github
+1. [Github](https://github.com/)
 
     * Storing code remotely and deployment
 
-2. Gitpod
+2. [Gitpod](https://www.gitpod.io/)
 
     * IDE for project developemnt 
 
 ### Other Tools 
 
-1. Balsamiq 
+1. [Balsamiq](https://balsamiq.com/)
 
     * To develop wireframes 
 
-2. DeepAi
+2. [DeepAI](https://deepai.org/)
 
     * All CurryHouse Merch Pictures
 
-3. Compress or Die
+3. [Compress or Die](https://compress-or-die.com/)
 
     * Image compression and optimization 
 
-4. W3Schools
+4. [W3schools](https://www.w3schools.com/)
 
     * HTML and CSS educational content
 
-5. WebAIM - Contrast Checker
+5. [WebAim - Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
     * Check contrast of website
 
-6. Online PNG Tools
+6. [Online PNG Tools](https://onlinepngtools.com/change-png-color)
 
     * Change color of PNG (Font Awesome Icons)
 
-7. WebAIM - WAVE
+7. [WebAim - Wave](https://wave.webaim.org/)
 
     * Test accessibility 
 
-8. Google - Google Developer (Lighthouse)
+8. [Google Developer - Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
     * For testing
 
-9. Google - Pagespeed 
+9. [Google - Pagespeed](https://pagespeed.web.dev/)
 
     * For testing
 
-10. W3C Validation Service
+10. [W3c Validation Service](https://validator.w3.org/)
+
 
     * For both HTML and CSS validation 
 
 ## Credits 
 
-1. Code Insitute - Boardwalk Games Project
+1. [Code Institute - Boardwalk Games Project](https://codeinstitute.net/)
 
     * Javascript code for autoclosing navbar on mobile and tablet devices.
 
-2. ChatGPT
+2. [ChatGPT](https://chatgpt.com/)
 
     * Writing the paragraphs on homepage of website. 
 
@@ -593,7 +596,7 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 #### Home
 
-![Homepage HTML Validation](assets/images/readme-media/index-html-validation.png)
+![Homepage HTML Validation](assets/images/readme-media/homepage-html-validation.png)
 
 #### Menu 
 
@@ -614,6 +617,18 @@ This sub-section depicts the basic layout used for the website (not all pages we
 ### CSS Validation 
 
 ![CSS Validation](assets/images/readme-media/css-validation.png)
+
+### WebAim - Wave
+
+#### Home 
+
+#### Menu 
+
+#### Gallery 
+
+#### Contact 
+
+#### Merch
 
 ### General Testing 
 
