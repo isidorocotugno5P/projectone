@@ -678,7 +678,7 @@ This sub-section depicts the basic layout used for the website (not all pages we
     * Fix: Switch background image to background color.
 
 13. Poor mobile lighthouse performance on certain pages with pictures.
-    * Using fetchpriority (high/low) to improve LCP.
+    * Fix: Using fetchpriority (high/low) to improve LCP.
 
 14. Label element in footer was causing validation errors on W3C.
     * Fix: Changed to a div.
@@ -702,7 +702,6 @@ This sub-section depicts the basic layout used for the website (not all pages we
 3. Hover description effect for pictures in gallery with small complimentary text.
 4. Engagement customer form with choice options on what next months "Monthly Curry" would be including options to opt-in the newsletter. 
 5. Adding a customer review section.
-6. 
 
 ## Deployment
 
