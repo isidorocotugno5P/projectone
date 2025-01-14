@@ -4,6 +4,8 @@
 
 The CurryHouse website was developed for a concept restaurant that serves different style curries from around the world in a fun, Asian-influenced hygge-style environment, offering branded merchandise and constantly changing menus in order to attract new as well as retain returning customers. This site will be targeted towards customers that value curry-related culture and their stylistic influences, especially from India and Southeast Asia, even if the menu choices are not limited to those areas. These are customers who are looking for an authentic dining experience but do not want to limit themselves to one country's food. CurryHouse hopes to attract dedicated customers to attain a large social media presence through merchandising and recognizable branding. Constantly changing available menu items to retain exclusivity and excitement for returning customers, as well as an incentive for new customers. 
 
+The purpose of this website was to gain experience in developing a restaurant website with broad requirements to get wide scope of experience in developing online sites for these types of services. The reason for this is because I originally approached a restaurant in my neighborhood who I knew did not have a well developed online presence, I offered my services and they accepted, but I felt that I needed to improve my capabilities before being able to offer a legitimate service, that I myself would be satisfying with offering in the first place. I took it upon myself to make this my first project in order to grow specifically according to my own demands as a developer. Although I am satisfied with my growth I will not be taking myself up on the project just yet as I feel there is far too much to lean before being able to offer a service I myself would be proud to offer. 
+
 ![Responsive Mockup](assets/images/readme-media/responsive-design.png)
 
 [Link to Live Site](https://isidorocotugno5p.github.io/projectone/index.html)
@@ -85,6 +87,21 @@ The CurryHouse website was developed for a concept restaurant that serves differ
       - [Contact](#contact-1)
       - [Merch](#merch-1)
     - [CSS Validation](#css-validation)
+    - [WebAim - WAVE](#webaim---wave)
+      - [Home](#home-1)
+      - [Menu](#menu-3)
+      - [Gallery](#gallery-3)
+      - [Contact](#contact-2)
+      - [Merch](#merch-2)
+        - [WebAim - WAVE: Test Summary](#webaim---wave-test-summary)
+    - [W3C - Link Checker](#w3c---link-checker)
+      - [Home](#home-2)
+      - [Menu](#menu-4)
+      - [Gallery](#gallery-4)
+      - [Contact](#contact-3)
+      - [Merch](#merch-3)
+      - [CSS](#css)
+        - [W3C - Link Checker: Test Summary](#w3c---link-checker-test-summary)
     - [General Testing](#general-testing)
     - [Mobile Testing](#mobile-testing)
     - [Desktop Testing](#desktop-testing)
@@ -92,6 +109,10 @@ The CurryHouse website was developed for a concept restaurant that serves differ
     - [Fixed Bugs](#fixed-bugs)
   - [Future Features](#future-features)
   - [Deployment](#deployment)
+    - [Cloning Repository](#cloning-repository)
+    - [Fork](#fork)
+    - [Local Deployment](#local-deployment)
+    - [Python Webserver Port](#python-webserver-port)
 
 
 ## User Stories 
@@ -433,105 +454,106 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ### Languages 
 
-1. HTML 
+1. [HTML](https://whatwg.org/) 
 
     * Page Markup
 
-2. CSS
+2. [CSS](https://www.w3.org/)
 
     * Styling
 
-3. Javascript 
+3. [Javsascript](https://www.oracle.com/developer/javascript/)
 
     * Interactive Design (Autoclosing Navigation Bar)
 
 ### Frameworks 
 
-1. Bootstrap 
+1. [Bootstrap](https://getbootstrap.com/)
 
     * Used for basic styling and outline (cards, navbar, carousel, etc.).
 
 ### Libraries 
 
-1. Pexels 
+1. [Pexels](https://www.pexels.com/)
 
     * Used for all basic images on homepage and gallery
 
-2. Google Fonts 
+2. [Google Fonts](https://fonts.google.com/)
 
     * Font Styles     
 
-3. Font Awesome 
+3. [Font Awesome](https://fontawesome.com/)
 
     * Icons
 
-4. Freepik
+4. [Freepik](https://www.freepik.com/)
 
     * Title Icon 
 
-5. PNGTree
+5. [PNGTree](https://www.pngtree.com/)
 
     * Golden Thai-style Lace
 
 ### Platforms 
 
-1. Github
+1. [Github](https://github.com/)
 
     * Storing code remotely and deployment
 
-2. Gitpod
+2. [Gitpod](https://www.gitpod.io/)
 
     * IDE for project developemnt 
 
 ### Other Tools 
 
-1. Balsamiq 
+1. [Balsamiq](https://balsamiq.com/)
 
     * To develop wireframes 
 
-2. DeepAi
+2. [DeepAI](https://deepai.org/)
 
     * All CurryHouse Merch Pictures
 
-3. Compress or Die
+3. [Compress or Die](https://compress-or-die.com/)
 
     * Image compression and optimization 
 
-4. W3Schools
+4. [W3schools](https://www.w3schools.com/)
 
     * HTML and CSS educational content
 
-5. WebAIM - Contrast Checker
+5. [WebAim - Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
     * Check contrast of website
 
-6. Online PNG Tools
+6. [Online PNG Tools](https://onlinepngtools.com/change-png-color)
 
     * Change color of PNG (Font Awesome Icons)
 
-7. WebAIM - WAVE
+7. [WebAim - Wave](https://wave.webaim.org/)
 
     * Test accessibility 
 
-8. Google - Google Developer (Lighthouse)
+8. [Google Developer - Lighthouse](https://developer.chrome.com/docs/lighthouse)
 
     * For testing
 
-9. Google - Pagespeed 
+9. [Google - Pagespeed](https://pagespeed.web.dev/)
 
     * For testing
 
-10. W3C Validation Service
+10. [W3c Validation Service](https://validator.w3.org/)
+
 
     * For both HTML and CSS validation 
 
 ## Credits 
 
-1. Code Insitute - Boardwalk Games Project
+1. [Code Institute - Boardwalk Games Project](https://codeinstitute.net/)
 
     * Javascript code for autoclosing navbar on mobile and tablet devices.
 
-2. ChatGPT
+2. [ChatGPT](https://chatgpt.com/)
 
     * Writing the paragraphs on homepage of website. 
 
@@ -593,7 +615,7 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 #### Home
 
-![Homepage HTML Validation](assets/images/readme-media/index-html-validation.png)
+![Homepage HTML Validation](assets/images/readme-media/homepage-html-validation.png)
 
 #### Menu 
 
@@ -615,27 +637,91 @@ This sub-section depicts the basic layout used for the website (not all pages we
 
 ![CSS Validation](assets/images/readme-media/css-validation.png)
 
+### WebAim - WAVE
+
+#### Home 
+
+![WAVE Test - Home](assets/images/readme-media/wave-home.png)
+
+#### Menu 
+
+![WAVE Test - Menu](assets/images/readme-media/wave-menu.png)
+
+#### Gallery 
+
+![WAVE Test - Gallery](assets/images/readme-media/wave-gallery.png)
+
+#### Contact 
+
+![WAVE Test - Contact](assets/images/readme-media/wave-contact.png)
+
+#### Merch
+
+![WAVE Test - Merch](assets/images/readme-media/wave-merch.png)
+
+##### WebAim - WAVE: Test Summary
+
+All in all, I was very satisfied with my test results on WAVE. There were two issues that appeared in the end, one of them one could consider a bug, the other one was voluntarily left as "Alert". The first one was two contrast issues appearing on the index.html page when runnning the WAVE test, the only issue is although the contrast errors were visible in the "Summary" on the left hand on the page my Mentor and I were both unable to find the origin on the issue on the actual page itself. The error message did not appear and was not visible on the WAVE report on the right hand side, being unable to find the origin of the issue I chose to leave it as is as there was not much I could do. The secondary issue was an "Alert" for a redudant link because both the "CurryHouse" logo and the "Home" link in the navigation bar both linked back to index.html, I chose to leave this because I have seen and experience an endless amount of websites doing this and did not think it was important to "fix". This alert appears on every page after the homepage itself. 
+
+### W3C - Link Checker
+
+#### Home
+
+![Link Checker - Home](assets/images/readme-media/urlchecker-home.png)
+
+#### Menu
+
+![Link Checker - Home](assets/images/readme-media/urlchecker-menu.png)
+
+#### Gallery
+
+![Link Checker - Gallery](assets/images/readme-media/urlchecker-gallery.png)
+
+#### Contact 
+
+![Link Checker - Contact](assets/images/readme-media/urlchecker-contact.png)
+
+#### Merch
+
+![Link Checker - Merch](assets/images/readme-media/urlchecker-merch.png)
+
+#### CSS
+
+![Link Checker - CSS](assets/images/readme-media/urlchecker-css.png)
+
+##### W3C - Link Checker: Test Summary
+
+The link checker found errors on each page of the website due to the fact that "robot.txt" blocked it from opening the link. Each of these specific errors were checked manually and all links on each page were functioning normally, lead to the correct page, and opened in a new tab. The specific errors on the contact page that was incited by a phone number link was checked via an Android manually which confirmed that the phone number was functioning properly and lead the user to call the given number. Same goes for the google maps link that was excluded from testing due to the "robot.txt" exclusion rules. 
+
 ### General Testing 
 
 - Both forms require email for submission and arrive on success.html upon successful submission.
+  - Manually tested all forms by entering email, making sure that forms require an email for submission and that upon submission the user gets a success message, in this case it is arriving on a page that informs the user of his subsciprition efforts being a success. 
 - All buttons function as intended.
+  - Manually tested all buttons checking that they function as intended on multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - All social media links function as intended, lead to the correct website and open in a new tab.
+  - Manually tested all links on all pages with multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and Iphone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - All navbar elements lead to the intended page, and menu dropdown lands above menu-section header making it clearly visible.
+  - Navbar functions as intended as well as its autoclose feature on each page, this was tested on multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - Carousel autoplays and has working "previous" and "next" functions.
+  - Manually tested all carousel functions, including the buttons, and made sure it was autoplaying on multiple devices and browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - CurryHouse navbar logo leads back to homepage upon clicking.
+  - Manually tested this link on multiple devices in multiple browsers (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
 - Formdump alternative (commented in) works properly.
+  - Manually tested this on Chrome on my Mac Studio. 
 - Every page is responsive relative to all screen sizes.
+  - Tested this on google developer, as well as all the devices and browsers I could get my hands on making sure my website is responsive across all platforms on all screen sizes (Devices: Galaxy S8, Macbook Pro, Mac Studio, and IPhone 13 Pro Max - Browsers: Chrome, Safari, Firefox).
  
 ### Mobile Testing
 
-- I tested the site personally on an Android device as well as an iOS device, making sure all processes function properly including buttons, links, phone number, google maps, etc. 
-- The site was sent to friends who tested on their devices of different screen sizes. 
+- I tested the site personally on an Android (Galaxy S8) device as well as an iOS device (IPhone 13 Pro Max), making sure all processes function properly including buttons, links, phone number, google maps, etc. 
+- The site was sent to friends who tested on their devices of different screen sizes (incl. different types of devices on different versions of different browsers.). 
 
 ### Desktop Testing 
 
 - The majority of the testing occured and was optimized using Chrome. 
-- I personally tested the website on Chrome, Safari, and Firefox.
-- The site was tested by friends on several desktop devices with different screen sizes.
+- I personally tested the website on Chrome, Safari, and Firefox using google developer on my Macbook Pro and on my Mac Studio. 
+- The site was tested by friends on several desktop devices with different screen sizes (incl. different types of devices on different versions of different browsers.)
 
 ## Bugs
 
@@ -702,10 +788,51 @@ This sub-section depicts the basic layout used for the website (not all pages we
 3. Hover description effect for pictures in gallery with small complimentary text.
 4. Engagement customer form with choice options on what next months "Monthly Curry" would be including options to opt-in the newsletter. 
 5. Adding a customer review section.
+6. 
 
 ## Deployment
 
-* The site was deployed to Github pages. Follow steps in order to deploy:
-  * From the Github repository, navigate to the Settings section
-  * From the source section dropdown-menu, select "Master Branch"
-  * Once master branch has been selected, the page will provide a link to the website.
+### Cloning Repository 
+
+1. Go to project repository [here](https://github.com/isidorocotugno5P/projectone)
+2. Click on the green button labeled "Code" near the top right of the repository
+3. Under the "Local" tab under the green button labeled "Code" copy the URL using HTTPS, make sure you are on the "HTTPS" beneath the "Local" tab of the green button labeled "<> Code"
+4. You can choose to clone the repository with "SSH" or "GTIHub CLI" beneath the tabs labeled under each respective name
+5. To copy each given URL click the copy button next to the URL under each given tab or highlight the URL itself and copy it directly. 
+6. Open a terminal on your personal workspace on Github
+7. Adapt and change the current working directory to the specific location where you would like your directory cloned
+8. Into the terminal type in <code>git clone</code> and paste any of the URL you copied earlier
+9. Press enter and your clone will be created
+
+### Fork
+
+1. Follow the previously given link to the given repository of this project
+2. On the top right corner of the page you will see a dropdown button link labeled "Fork"
+3. Press on it and you should see your own personal Github User ID assuming you have one
+4. Click on your User ID to compute the fork
+5. Now your browser should redirect you to the forked repository that should have been allocated in your own Github
+6. Now if you view the dropdown button on the top right of your own Github organization labeled "Fork" the value should have increased by "1"
+7. You have successfuly copied the original repository 
+
+### Local Deployment
+
+1. Once you have successfuly cloned or forked the repository it is time to locally deploy the website
+2. Log into your own Github account, assuming that you have completed the previous steps you should have already had an account if you do not have an account please create one [here](https://github.com/). Once completed please follow the steps above for cloning or forking ideally before locally deploying the site.
+3. Once you have made a clone or fork of your the linked repository above the repo should appear on the left hand side of your Github dashboard
+4. Click on project repository
+5. Click on the tabs labelled "Settings" to the right of the tab labelled "Insights"
+6. On the left hand side of the Settings tab you will have to naviagte to the section called "Pages"
+7. Once you have clicked on Pages you are going to have to set the "Source" to "Deploy from Branch", the "Main Branch", should be selected and the folder location has to be set to "/root"
+8. Once all setting are set correctly press save and your website should be properly deployed
+9. Return to the tab labelled "Code" on the same level you found the "Setting" tabs earlier, wait a few seconds or minutes, ideally refresh your repository, and your deployed website should be located on the right side of the repository under a section labelled "github-pages"
+10. The given link should be an active link to your live website
+
+### Python Webserver Port 
+
+1. If you do not need a local deployment follow these steps in order to achieve a quick overview of the website
+2. Once you have forked or cloned the linked repository, in your own github dashboard once you have clicked on the cloned or forked repository click on the green button labelled "Open" which will prompt your Github IDE workstation 
+3. In the terminal type in <code>python3 -m http.server</code> to create a port
+4. After a few seconds you should receive a pop up on the right of your workstation which will prompt you to make a choice on the deployed port. 
+5. To view the current version of the coded website click on the button labelled "Open Browser"
+6. This is the current version of the website that has been coded, changed, adapted, or altered on the current repository you have cloned or forked, any saved changed will be adapted on this version of the website before you <code>git push</code> the code and deploy the website
+
